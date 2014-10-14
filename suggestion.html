@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>意见反馈，联系我们</title>
+<SCRIPT LANGUAGE=javascript RUNAT=Server>
+function check(){
+   if(document.getElementById("title").value.length<2){
+       alert("对不起，标题不能少于2个字");
+       document.getElementById("title").focus();
+       return false;
+   }
+   if(document.getElementById("realname").value.length==0){
+       alert("对不起，姓名不能为空");
+       document.getElementById("realname").focus();
+       return false;
+   }
+   if(document.getElementById("tel").value.length==0){
+       alert("对不起，电话号码不能为空");
+       document.getElementById("tel").focus();
+       return false;
+   }
+   if(document.getElementById("email").value.length==0){
+       alert("邮箱不能为空");
+       document.getElementById("email").focus();
+       return false;
+   }/**/
+   if(!ischeck(document.getElementById("email").value)){
+       alert("对不起，邮箱不合法");
+       document.getElementById("email").focus();
+       return false;
+   }
+   if(document.getElementById("content").value.length<10){
+       alert("对不起，内容不能少于10个字符");
+       return false;
+   }
+   return true;
+}
+
+function ischeck(email){
+  if (email != "") {
+      if (email.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) == -1) {          
+          return false;
+      }
+  }
+  return true;
+}
+</SCRIPT>
+<style>
+<!--
+*{ margin:0; padding:0;}
+body{
+	font-size: 12px;
+	text-align: center;
+	margin:0 auto;
+}
+.container{
+	width: 778px;
+	background: url(images/suggestionbox_bg.jpg) repeat-y;
+	margin: 0 auto;
+	text-align: left;
+}
+.content{ margin:0 40px;}
+.content h3{font-size:14px; line-height:180%; padding:5px 0; font-weight:400;}
+.content p{ font-size:14px; line-height:180%; padding:5px 0; text-indent:2em;}
+.form_box{ margin-top:15px;margin-bottom:15px;}
+.form_box table { font-size:14px; background:#fff; margin:0 auto; }
+.form_box table th{ font-weight:400;  text-align:right; white-space:nowrap; background: #ddd;padding:5px 5px 0px 5px;}
+.form_box table td { background:#fff;padding:2px 5px 1px 5px;background: #f5f5f5;}
+.form_box table tfoot td{ padding:5px; background:#fff;}
+.form_box table td em{ font-size:12px; color:#999999; font-style:normal; line-height:20px; margin-left:5px;}
+.txt_input_yh{ border:1px solid #666666; font-size:14px; width:290px;  padding:3px 5px;}
+.txt_input_dh{border:1px solid #666666; font-size:14px; width:350px;  line-height:20px; padding:3px 5px; height:150px;}
+.sug_btn{
+	background: url(images/btn_sug_submit.jpg);
+	height: 27px;
+	width: 90px;
+	border: none;
+	color: #5C1012;
+	cursor: pointer;
+}
+-->
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="head"><img src="images/suggestionbox_head.jpg" /></div>
+	<div class="content">
+  		<h3>尊敬的网友您好：</h3>
+  		<p>非常感谢您对杭州股如泉科技有限公司的关注与支持，如果您对我们的网站有宝贵的意见或建议，请在这里向我们反映，我们会不断完善，使您能够更加方便快捷地获取信息！</p>
+  		<p>如果您的意见或建议是针对我们公司或者我们的产品，请发邮件给我们，邮箱地址如下： </p>
+        <p>关于保值网请发邮件至：bzw@guruquan.com </p>
+        <p>关于理财股票投资请发邮件至：lcw@guruquan.com </p>
+        <p>关于软件开发和网站建设请发邮件至：it@guruquan.com </p>
+        <p>关于股如泉公司人员问题请发邮件至：hr@guruquan.com </p>
+        <div class="form_box">
+        <table width="550" border="0" align="center" cellpadding="0" cellspacing="1">
+          <form action="#" method="post" onsubmit="return check();">
+          <tr>
+            <th width="86" nowrap="nowrap">主　　题：</th>
+            <td colspan="2"><input type="text" name="title" id="title" class="txt_input_yh" /></td>
+            </tr>
+          <tr>
+            <th nowrap="nowrap">用 户  名：</th>
+            <td colspan="2"><input type="text" name="realname" id="realname" class="txt_input_yh"  /></td>
+            </tr>
+          <tr>
+            <th nowrap="nowrap">电话号码：</th>
+            <td colspan="2" nowrap="nowrap"><input type="text" name="tel" id="tel" class="txt_input_yh"  /><em>提供电话及时与您取得联系</em></td>
+            </tr>
+          <tr>
+            <th nowrap="nowrap">电子邮件：</th>
+            <td colspan="2" nowrap="nowrap"><input type="text" name="email" id="email" class="txt_input_yh"  /><em>提供email方便与您取得联系</em></td>
+            </tr>
+          <tr>
+            <th valign="top" nowrap="nowrap">内　　容：</th>
+            <td width="365" valign="top"><textarea name="content" id="content" class="txt_input_dh"></textarea></td>
+            <td width="102" valign="top"><em>请把相关链接贴在这里，方便我们查看您所反映的问题</em></td>
+          </tr>
+          <!-- <tr>
+            <th valign="top" nowrap="nowrap">验证码：</th>
+            <td width="365" valign="top"></td>
+            <td width="102" valign="top"><em>请输入验证码</em></td>
+          </tr>-->
+          <tfoot>
+            <tr>
+            <td colspan="3" align="center"><input type="submit" name="button" id="button" value="提　交" class="sug_btn" />
+              &nbsp;
+              <input type="reset" name="button2" id="button2" value="重　置" class="sug_btn" /></td>
+            </tr></tfoot>
+          </form>
+        </table>
+        </div>
+  </div>
+    <div class="foot"><img src="images/suggestionbox_foot.jpg" /></div>
+</div>
+</body>
+</html>

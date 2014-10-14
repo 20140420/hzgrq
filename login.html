@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登入页面_股如泉！赢现在！赢未来！</title>
+<SCRIPT LANGUAGE=javascript RUNAT=Server>
+function check(){
+   if(document.getElementById("user").value.length==0){
+       alert("对不起，用户名不能为空");
+       document.getElementById("user").focus();
+       return false;
+   }
+   if(document.getElementById("password").value.length==0){
+       alert("对不起，密码不能为空");
+       document.getElementById("password").focus();
+       return false;
+   }
+   return true;
+}
+</SCRIPT>
+<style>
+<!--
+*{ margin:0; padding:0;}
+body{
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+.container{
+	width: 778px;
+	background: url(images/login_bg.jpg) repeat-y;
+	text-align: left;
+	margin:0 auto;
+}
+.content{ margin:0 40px;}
+.content h3{
+	font-size: 14px;
+	line-height: 80%;
+	padding: 1px 0;
+	font-weight: 400;
+	color: #333;
+}
+.content p{
+	font-size: 12px;
+	line-height: 180%;
+	padding: 1px 0;
+	text-indent: 2em;
+	color: #666;
+}
+.form_box{
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+.form_box table { font-size:14px; background:#fff; margin:0 auto; }
+.form_box table th{
+	font-weight: 400;
+	text-align: right;
+	white-space: nowrap;
+	background: #ddd;
+	padding: 5px 5px 0px 5px;
+	border: 1px solid #FFF;
+}
+.form_box table td {
+	background: #fff;
+	padding: 2px 5px 1px 5px;
+	background: #f5f5f5;
+	border: 1px solid #FFF;
+}
+.form_box table tfoot td{ padding:5px; background:#fff;}
+.txt_input_yh{
+	border: 1px solid #666666;
+	font-size: 14px;
+	width: 190px;
+	padding: 3px 5px;
+}
+.sug_btn{
+	background: url(images/login_btn_submit.jpg);
+	height: 27px;
+	width: 90px;
+	border: none;
+	color: #5C1012;
+	cursor: pointer;
+}
+.form_title{
+	display: block;
+	width: 220px;
+	height: auto;
+	border-radius: 3px;
+	color: #F00;
+	text-shadow: 1px 1px 2px #2771dc;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+	font-size: 24px;
+	background-color: #FEA154;
+	font-weight: bolder;
+	margin-right: auto;
+	margin-bottom: 65px;
+	margin-left: auto;
+}
+.form_title .set_now {
+	text-align: center;
+	padding: 10px;
+}
+.form_box .login {
+	width: auto;
+}
+em {
+	font-size: 12px;
+	color: #333;
+	font-style: normal;
+	font-weight: bolder;
+}
+
+-->
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="head"><img src="images/login_head.jpg" /></div>
+	<div class="content">
+        <div class="form_box">
+          <div class="form_title">
+          	<div class="set_now">用户登录</div>
+        </div>
+        <table class="login">
+          <form action="#" method="post" onsubmit="return check();">
+          <tr>
+            <th width="86" nowrap="nowrap">用户名：</th>
+            <td nowrap="nowrap"><input type="text" name="user" id="user" class="txt_input_yh"  placeholder="身份证号/手机号/交易账号" /></td>
+            </tr>
+          <tr>
+            <th width="86" nowrap="nowrap">密&nbsp;&nbsp;码：</th>
+            <td nowrap="nowrap"><input type="password" name="password" id="password" class="txt_input_yh" placeholder="由字母和数字组成"/></td>
+		  </tr>
+          <tfoot>
+            <tr>
+            <td colspan="2" align="center"><input type="submit" name="button" id="button" value="提　交" class="sug_btn" />
+              &nbsp;
+              <input type="reset" name="button2" id="button2" value="重　置" class="sug_btn" /></td>
+            </tr>
+          </tfoot>
+          </form>
+        </table>
+        </div>
+        <h3>尊敬的网友您好：</h3>
+  		<p>非常感谢您对杭州股如泉科技有限公司的关注与支持，如果您还没有账号，请联系您的上级，或者向我们指定的代理商申请。如果你想直接向我们公司申请，请发邮件至:<em>id@guruquan.com</em>，  我们会在两个工作日内与你取得联系。</p>
+  		<p><em>*提示：邮件标题请按以下格式（姓名-地区-年龄-工作-上级储户信息）</em></p>
+  </div>
+    <div class="foot"><img src="images/login_foot.jpg" /></div>
+</div>
+</body>
+</html>

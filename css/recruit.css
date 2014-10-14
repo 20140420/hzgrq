@@ -1,0 +1,44 @@
+@charset "utf-8";
+.wrapper{width:960px;margin:0 auto}
+.content{
+	clear: both;
+	border: 1px solid #cfcbcb;
+	margin-top: 1px;
+	box-shadow: 0 0 0 1px #f2f2f2;
+	padding: 20px;
+	width: 920px;
+	line-height: 24px;
+	margin-bottom: 1px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.jobs_detail{
+	color: #666;
+	border-bottom: 1px dashed #d6d6d6;
+	padding-bottom: 25px;
+}
+.jobs_detail h2{
+	margin: 25px 0;
+	color: #0096e2
+}
+
+.jobs_detail .add,.jobs_detail .desc,.jobs_detail .req,.jobs_detail .direction{
+	margin-top: 20px
+}
+.jobs_detail .action{
+	display: inline-block;
+	height: 40px;
+	font: 18px/40px "microsoft yahei";
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	background: #0096e2;
+	margin-top: 15px;
+	padding-top: 0;
+	padding-right: 40px;
+	padding-bottom: 0;
+	padding-left: 40px;
+}
+.school{
+	color: #666;
+}
