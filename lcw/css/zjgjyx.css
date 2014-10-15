@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{background: #f2f2f2;height:100%;width:100%;color: #333;}
+body,button,input,select,textarea{font:12px/1.5 \5b8b\4f53,tahoma,arial,sans-serif}
+/* container */
+.container {
+	height: auto;
+}
+.m_wraper_0{
+    background: #f2f2f2;
+    width: 100%;
+    overflow: hidden;
+    zoom: 1;
+	margin: opx auto;
+}
+.m_cont_0{
+    margin: 0 auto 10px;
+    width: 970px;
+    padding: 15px;
+    background: #fff;
+    overflow: hidden;
+    zoom: 1;
+}
+.m_title_0 h3{
+	color: #1b96f5;
+	margin-bottom: 17px;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+	font-size: 48px;
+	font-weight: 400;
+}
+.m_cont_3{
+	width: 1000px;
+	background:#fff;
+	margin: 10px auto 0;
+}
+.m_cont_3 .tip{
+	padding: 10px 15px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.images li{
+	float: left;
+	list-style-type: none;
+	margin: 0px 2px;
+}
+.images img{
+	height: 630px;
+	width: 480px;
+}
+.sub_box_cont p{
+	color: #555;
+	font-size: 12px;
+	font-family: "宋体";
+	text-indent: 2em
+}
+.m_title_0 em {
+	font-size: 12px;
+	color: #999;
+	margin-left: 700px;
+}
+.m_title_0 em a {
+	cursor: pointer;
+}
