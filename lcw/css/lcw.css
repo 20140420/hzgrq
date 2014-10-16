@@ -687,3 +687,24 @@ html, body{background: #f2f2f2;height:100%;width:100%;color: #333;}
 	margin-left: 15px;
 	padding: 0px;
 }
+.set_now01{
+	width: 80px;
+	height: 24px;
+	float: right;
+}
+.set_now01 a{
+	display: block;
+	border-radius: 2px;
+	color: #fff !important;
+	text-shadow: 1px 1px 2px #2771dc;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+	margin: 0px;
+	background-color: #4294e8;
+	padding: 0px;
+	text-align: center;
+}
+.set_now01 a:hover{
+	color: #FF0000 !important;
+	text-decoration: none;
+	background-color: #06F;
+}
