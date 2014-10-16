@@ -488,50 +488,6 @@ html, body{background: #f2f2f2;height:100%;width:100%;color: #333;}
 	text-decoration: none;
 	background-color: #06F;
 }
-.set_now01 a{
-	display: block;
-	text-align: center;
-	width: 110px;
-	height: 40px;
-	line-height: 40px;
-	border-radius: 3px;
-	color: #fff;
-	text-shadow: 1px 1px 2px #2771dc;
-	font-family: \5FAE\8F6F\96C5\9ED1;
-	font-size: 20px;
-	background-color: #6699FF;
-	margin-top: 0px;
-	margin-right: 0;
-	margin-bottom: 0px;
-	margin-left: 100px;
-	font-weight: bolder;
-}
-.set_now03{
-}
-.set_now02 a{
-	display: block;
-	text-align: center;
-	width: 110px;
-	height: 40px;
-	line-height: 40px;
-	border-radius: 3px;
-	color: #fff;
-	text-shadow: 1px 1px 2px #2771dc;
-	font-family: \5FAE\8F6F\96C5\9ED1;
-	font-size: 20px;
-	background-color: #6699FF;
-	margin-top: 0px;
-	margin-right: 0;
-	margin-bottom: 0px;
-	margin-left: 500px;
-	font-weight: bolder;
-}
-.set_now01 a:hover,.set_now02 a:hover{
-	color: #FF6;
-	text-decoration: none;
-	background-color: #F00;
-	font-weight: bolder;
-}
 .pro_descrpt{padding:12px 0 8px;border-top:1px dashed #c4c4c4;overflow:hidden;zoom:1}.pro_descrpt .pro_profit{
 	float: left;
 	display: inline;
