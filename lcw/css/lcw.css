@@ -163,11 +163,19 @@ html, body{background: #f2f2f2;height:100%;width:100%;color: #333;}
     background: url(../images/lcw/bg_00.jpg) no-repeat scroll center top #ecede7;
 }
 .m_wraper_0{
-    background: #f2f2f2;
-    width: 100%;
-    overflow: hidden;
-    zoom: 1;
-	margin-top: 15px;
+	background: #f2f2f2;
+	width: 100%;
+	overflow: hidden;
+	zoom: 1;
+	margin-top: 10px;
+}
+.m_wraper_p2p{
+	width: 1000px;
+	overflow: hidden;
+	zoom: 1;
+	margin: 10px auto;
+	background-color: #FFFFFF;
+	padding: 10px 0px;
 }
 .m_cont_0{
     margin: 0 auto;
@@ -395,10 +403,13 @@ html, body{background: #f2f2f2;height:100%;width:100%;color: #333;}
 	background: #fffae4;
 	border: 1px solid #ead98a;
 	padding-left: 10px;
-	margin: 15px auto 0;
 	font-size: 14px;
 	color: #d63b3f;
 	font-weight: 700;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
 }
 .tip_0 a{
 	font-size: 12px;
@@ -505,25 +516,174 @@ html, body{background: #f2f2f2;height:100%;width:100%;color: #333;}
 .m_cont_p2p{
 	width: 1000px;
 	background: #fff;
-	margin: 0px auto 15px;
+	margin: 0px auto;
 }
-.m_title_p2p h3{
-	color: #1b96f5;
-	margin-bottom: 10px;
-	font-family: "华文行楷";
-	font-size: 36px;
-	font-weight: lighter;
+.m_content_p2p {
+	background: #fff;
+	height: auto;
+}
+.span9 {
+	width: 700px;
+	float: left;
+	margin-left: 10px;
+	height: auto;
+}
+.borrowinglist {
+	background:url(../images/lcw/borrow_ing.jpg) center 0 #FFF no-repeat;
+	margin-top:20px;
+	padding-top:42px;
+	overflow:hidden;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+.borrowinglist ul {
+	margin:0;
+}
+.borrowinglist li {
+	list-style:none;
+	clear:both;
+*height:90px;
+	border-bottom:1px dashed #ccc;
+	overflow:hidden;
+	padding-left:10px;
+}
+.borrowinglist li:last-child {
+	border-bottom:none;
+}
+.borrowinglist img {
+	display:block;
+	width:66px;
+	height:66px;
+	border:1px solid #CCC;
+	-moz-border-radius:6px;
+	padding:1px;
+	border-radius:6px;
+}
+.borrowinglist table {
+	font-size:13px;
+	margin-top:7px;
+	letter-spacing:0;
+	width:100%;
+}
+.borrowinglist table span {
+	color:#e07f00;
+}
+.borrowinglist .leftimg, .borrowinglist .rightlist {
+	margin:8px 0 8px 0;
+}
+.borrowinglist table a {
+	text-decoration:underline;
+	color:#e07f00;
+}
+.borrowinglist .borrowlist_tit {
+	font-weight:bold;
+	font-size:14px;
+	margin-top:3px;
+}
+.borrowinglist .borrowlist_tit a {
+	color:#999;
+}
+.borrowinglist .borrowlist_tit a:hover {
+	color:#66a100;
+}
+.borrowinglist .progress1 {width:100px;float:left;background:#CCC;height:14px;margin:2px 0 0 0;}
+.borrowinglist .progress2,.lend_nav .progress3 {width:50%;float:left;height:14px;line-height:14px;color:white;text-indent:0.5em;}
+.borrowinglist .progress2{background:#39a1ea;}
+.borrowinglist .progress3{background:#f7971a;}
+.float_l {
+	float: left;
+	font-style: normal;
+}
+.float_r {
+	float: right!important;
+}
+.span3 {
+	width: 260px;
+	float: left;
+	margin-left: 10px;
+}
+.index_body_right_notice_nav {
+	border:2px solid #d9d9d9;
+*width:260px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	padding:5px 10px 5px 10px;
+	margin-bottom:10px;
+	background:#FFF;
+}
+.index_body_right_notice_nav h4 {
+	border-bottom:1px dashed #CCC;
+	display:block;
+	height:18px;
+	padding:4px 0 8px 0;
+	margin-bottom:4px;
+}
+.index_body_right_notice_nav h4 a {
+	float:right;
+	color:#004098;
+}
+.index_body_right_notice_nav h4 i {
+	float:left;
+	font-style: normal;
+}
+.index_body_right_notice_nav ul {
+	list-style:none;
+	font-size:12px;
+	margin:0;
+}
+.index_body_right_notice_nav li a {
+	color:#1b1b1b;
+}
+.index_body_right_notice_nav .story_nav li {
+	margin:10px 0 10px 0;
+	clear:both;
+}
+.index_body_right_notice_nav .story_nav li label {
+	float:right;
+	width:162px;
+	margin-top:3px;
+	line-height:20px;
+	font-size:12px;
+}
+.index_body_right_notice_nav .story_nav li img {
+	border:1px solid #CCC;
+	-moz-border-radius:6px;
+	padding:1px;
+	border-radius:6px;
+*float:left;
+}
+.index_body_right_notice_nav .islend {
+	height:70px;
+}
+.index_body_right_notice_nav .islend li a {
+	color:#004098;
+}
+.index_body_right_notice_nav .islend li p {
+	margin:0;
+	line-height:20px;
+}
+.index_body_right_notice_nav .islend p:first-child {
+	margin-bottom:2px;
+}
+.index_body_right_notice_nav .islend li {
+	height:65px;
+	padding-top:4px;
+	margin-bottom:5px;
 }
 /* p2c借贷 个人对公司 */
 .m_cont_p2c{
 	width: 1000px;
 	background: #fff;
-	margin: 0px auto 15px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
 }
 .m_title_p2c h3{
 	color: #1b96f5;
-	margin-bottom: 10px;
 	font-family: "华文行楷";
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: lighter;
+	margin-left: 15px;
+	padding: 0px;
 }
