@@ -270,7 +270,7 @@ img{border:none;}
 	height: 130px;
 }
 a .bt_01 {
-	background: url(../images/it/bt_01.jpg) no-repeat;
+	background: url(../images/stockInvest/bt_01.jpg) no-repeat;
 	width: 92px;
 	height: 51px;
 	line-height: 20px;
@@ -279,7 +279,7 @@ a .bt_01 {
 	color: #0585BA;
 }
 a:hover .bt_01 {
-	background: url(../images/it/bt_02.jpg) no-repeat;
+	background: url(../images/stockInvest/bt_02.jpg) no-repeat;
 	width: 92px;
 	height: 51px;
 	line-height: 20px;
@@ -288,9 +288,9 @@ a:hover .bt_01 {
 	padding-top: 5px;
 	cursor: pointer;
 }
-.bt_02 {background:url(../images/it/bt_02.jpg) no-repeat; width:92px; height:51px; line-height:20px; color:#FF0000; text-align:center;padding-top:5px;}
-.bt_05 {background:url(../images/it/bt_05.jpg) no-repeat; width:92px; height:34px; line-height:20px; color:#B800CE; text-align:center;padding-top:5px;}
-.bt_06 {background:url(../images/it/bt_06.jpg) no-repeat; width:92px; height:34px; line-height:20px; color:#000000; text-align:center;padding-top:5px;}
+.bt_02 {background:url(../images/stockInvest/bt_02.jpg) no-repeat; width:92px; height:51px; line-height:20px; color:#FF0000; text-align:center;padding-top:5px;}
+.bt_05 {background:url(../images/stockInvest/bt_05.jpg) no-repeat; width:92px; height:34px; line-height:20px; color:#B800CE; text-align:center;padding-top:5px;}
+.bt_06 {background:url(../images/stockInvest/bt_06.jpg) no-repeat; width:92px; height:34px; line-height:20px; color:#000000; text-align:center;padding-top:5px;}
 
 
 .table02{
