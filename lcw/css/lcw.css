@@ -436,6 +436,32 @@ html, body{background: #f2f2f2;height:100%;width:100%;color: #333;}
 	font-size: 12px;
 	line-height: 20px;
 }
+.m_cont_4 {
+	background: url(../images/lcw/cont_4.jpg) no-repeat scroll 0 0 transparent;
+	width: 998px;
+	height: 88px;
+	margin: 10px auto;
+	border: 1px solid #d3d3d3;
+}
+.mobile_opts {
+	padding: 43px 0 0 14px;
+}
+.mobile_opts a {
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	zoom: 1;
+	margin-left: 20px;
+	width: 70px;
+	height: 25px;
+	text-indent: -9999px;
+}
+.mobile_opts .ml_none {
+	margin-left: 0;
+}
+.mobile_opts .android {
+	width: 75px;
+}
 /* 基金商品 */
 .m_cont_0_lcw{
 	margin: 0 auto 15px;
