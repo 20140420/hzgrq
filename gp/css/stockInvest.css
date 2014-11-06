@@ -74,11 +74,18 @@ img{border:none;}
 .blu{color:#499fcb;margin:0 5px 0 0;}
 
 /*top-mian*/
-#top-mian{width:950px;height:150px;margin:0;background-position:left -40px;overflow:hidden;clear:both;}
+#top-mian{
+	width: 950px;
+	height: 150px;
+	margin: 0;
+	background-position: left -40px;
+	overflow: hidden;
+	clear: both;
+}
 #top-mian h2{
-	font: bold 24px 黑体;
+	font: bold 22px 黑体;
 	color: #047bc6;
-	padding: 42px 0 0 20px;
+	padding: 30px 0 0 20px;
 }
 #top-mian span{font:normal 12px 宋体;color:#666;cursor:pointer;}
 .ul02{margin:10px 0 0 25px;color:#666;cursor:pointer;}
@@ -319,10 +326,10 @@ a:hover .bt_01 {
 	font-family: \5FAE\8F6F\96C5\9ED1;
 	font-size: 20px;
 	background-color: #6699FF;
-	margin-top: 18px;
+	margin-top: 28px;
 	margin-right: 0;
 	margin-bottom: 18px;
-	margin-left: 180px;
+	margin-left: 380px;
 	font-weight: bolder;
 }
 .set_now a:hover{
@@ -336,4 +343,13 @@ a:hover .bt_01 {
 }
 .custom_color2 td{
 	background-color: #e9edef;
+}
+#top-mian .weixin {
+	height: 77px;
+	width: 77px;
+	float: left;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	margin-left: 10px;
 }
