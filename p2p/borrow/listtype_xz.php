@@ -20,61 +20,9 @@
         <link rel="stylesheet" href="../css/account.css" />
         <link href="../css/bindAccount.css" rel="stylesheet" />
  
-</head>
-<body>
-    <div class="top PPD_header_nav">
-        <div class="top_inner w1188center clearfix PPD_login_status">
-            
-        </div>
-    </div>
-
-    <div class="mainNav">
-        <div class="mainNav_inner w1000center clearfix">
-            <h1 class="logo">
-                <a href="/">
-                    <!--<img src="../img/logo.png" alt="" />修改图片--></a>
-            </h1>
-            <ul id="tabIcon">
-                <li class="hasSubMenu">
-                    <a href="/lend" category="Lend">我要投资</a>
-                    <div class="subMenu">
-                        <a href="/lend">我要投资</a>
-                        <a href="/product/list">产品专区</a>
-                        <a href="/howtolend">如何投资</a>
-                        <a href="/help/principalprotection">本金保障</a>
-                    </div>
-                </li>
-                <li class="hasSubMenu">
-                    <a href="/borrow" category="Borrow">我要借款</a>
-                    <div class="subMenu">
-                        <a href="/borrow">我要借款</a>
-                        <a href="/help/howtoborrow">如何借款</a>
-                        <a href="/borrow/interestcalculate">利息计算器</a>
-                    </div>
-                </li>
-                <li class="hasSubMenu"><a href="/account" category="Account">我的账户</a>
-                    <div class="subMenu">
-                        <a href="/account/borrow">借款账户</a>
-                        <a href="/account/lend">投资账户</a>
-                    </div>
-                </li>
-                <li class="hasSubMenu"><a href="/help/aboutus"  category="About">关于拍拍贷</a>
-                    <div class="subMenu">
-                        <a href="/help/aboutus">关于我们</a>
-                        <a href="/help/howworks">工作原理</a>
-                        <a href="/help/fees">资费说明</a>
-                            <a href="/job/campus">校园招聘</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
-
-}
-
- 
-
+<?php 
+	include_once('../header.php');
+?>
 
 <div>
     <ul class="breadcrumb" style="border: none !important;">
@@ -217,39 +165,9 @@
     })();
 </script>
 
-    <div class="clear">
-    </div>
-
-    <div class="footer">
-        <div class="footer_footerBottom">
-            <ul class="footer_footerBottomNav clearfix">
-                <li><span class="webindex"></span><a href="/">网站首页</a>|</li>
-                <li><span class="aboutus"></span><a href="/help/aboutus">关于我们</a>|</li>
-                <li><span class="mapsite"></span><a href="/home/sitemap">网站地图</a>|</li>
-                <li><span class="webservice"></span><a href="/consult">客服中心</a>|</li>
-                <li class="nomr"><span class="onlneserve"></span><a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDAyNzUzNV8xODAzNjBfODAwMDI3NTM1XzJf" target="_blank">在线咨询</a></li>
-            </ul>
-            <p>Copyright Reserved 2007-2014©拍拍贷（www.ppdai.com）&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;沪ICP备05063398号&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;上海拍拍贷金融信息服务有限公司</p>
-
-
-        </div>
-
-    </div>
-
-    <script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../js/init.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../js/servicestack-min.js"></script>
-    <script src="../js/jquery.cookie.js"></script>
-    <script src="http://ac.ppdai.com/status?v=2014" type="text/javascript"></script>
-    <script src="../js/newRefer.js?v=0807"></script>
-    <script>
-        $(".my-f-l-list li a.on").closest(".my-f-l-list").prev(".my-f-l-nav").addClass("my-f-l-nav-sd");
-        try {
-            $("#tabIcon a[category='" + breadcrumbCategory + "']").addClass("tabon");
-        } catch (e) {
-
-        }
-    </script>
+<?php  
+	include_once('../footer.php');
+?>
     
 
     <!-- Google Tag Manager -->
