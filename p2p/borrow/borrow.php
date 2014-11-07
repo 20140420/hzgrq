@@ -50,27 +50,27 @@
                                     <li>有固定工作</li>
                                 </ul>
                                 <div>
-                                    <a title="查看该产品的详细说明" href="/borrow/listtype_pt" target="_blank">查看该产品的详细说明</a>
+                                    <a title="查看该产品的详细说明" href="../borrow/listtype_pt.php" target="_blank">查看该产品的详细说明</a>
                                 </div>
                                 <input class="btn font_yahei"  onclick="borrowRedirect('/borrow/createlist/1', '/createlist1')" type="button" value="立即申请" />
                             </div>
                         </div>
                         <div class="product center">
-                            <h2 class="title tbg2" style="font-weight: normal">购物达人标</h2>
+                            <h2 class="title tbg2" style="font-weight: normal">购物商品标</h2>
                             <div class="content">
-                                <h3>适用购物达人</h3>
+                                <h3>适用购物者</h3>
                                 <p>申请条件</p>
                                 <ul>
                                     <li>21-55周岁中国大陆公民</li>
                                     <li>支付宝实名关联</li>
                                     <li>最近三个月中至少有两个月支付宝购物支出分别不少于500元</li>
                                 </ul>
-                                <div style="margin-top:30px;"><a title="查看该产品的详细说明" href="/borrow/listtype_wg" target="_blank">查看该产品的详细说明</a></div>
+                                <div style="margin-top:30px;"><a title="查看该产品的详细说明" href="../borrow/listtype_gw.php" target="_blank">查看该产品的详细说明</a></div>
                                 <input class="btn font_yahei" type="button" onclick="borrowRedirect('/borrow/createlist/4', '/createlist4')" value="立即申请" />
                             </div>
                         </div>
                         <div class="product right">
-                            <h2 class="title tbg3" style="font-weight: normal">保值网安全标</h2>
+                            <h2 class="title tbg3" style="font-weight: normal">保值安全标</h2>
                             <div class="content">
                                 <h3>适用借出者</h3>
                                 <p>申请条件</p>
@@ -79,7 +79,7 @@
                                     <li>经理及以上级别储户</li>
                                     <li>第三方关联1个以上</li>
                                 </ul>
-                                <div><a title="查看该产品的详细说明" href="/borrow/listtype_ac" target="_blank">查看该产品的详细说明</a></div>
+                                <div><a title="查看该产品的详细说明" href="../borrow/listtype_bz.php" target="_blank">查看该产品的详细说明</a></div>
                                 <input class="btn font_yahei"  onclick="borrowRedirect('/borrow/createlist/6', '/createlist6')" type="button" value="立即申请" />
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                                     <li>有效营业执照满一年可申请借款额度</li>
                                     <li>相关资质证明</li>
                                 </ul>
-                                <div><a title="查看该产品的详细说明" href="/borrow/listtype_ws" target="_blank" style="margin-top: 80px;">查看该产品的详细说明</a></div>
+                                <div><a title="查看该产品的详细说明" href="../borrow/listtype_ws.php" target="_blank" style="margin-top: 80px;">查看该产品的详细说明</a></div>
                                 <!--<div style="margin-top: 0;">
                                     <input class="btn font_yahei" type="button" onclick="javascript: location = '/info/taobaouserdocuments'" value="申请借款额度" /><span class="question" id="question_01"></span>
                                 </div>-->
@@ -111,7 +111,7 @@
                                     <li>近三个月实盘交割单盈利5%及以上</li>
                                     <li>相关资质证明</li>
                                 </ul>
-                                <div><a title="查看该产品的详细说明" href="/borrow/listtype_sy" target="_blank" style="margin-top:80px;">查看该产品的详细说明</a></div>
+                                <div><a title="查看该产品的详细说明" href="../borrow/listtype_jp.php" target="_blank" style="margin-top:80px;">查看该产品的详细说明</a></div>
                                 <input class="btn font_yahei" style="margin-top: 40px;" onclick="borrowRedirect('/borrow/createlist/1', '/createlist1_syyz')" type="button" value="立即申请" />
 
                             </div>
