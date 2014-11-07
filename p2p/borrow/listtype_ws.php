@@ -95,7 +95,7 @@
             </div>
 
             <div class="outerOneRowBtn">
-                <a href="http://ac.ppdai.com/user/register?userrole=borrower&redirect=http://www.ppdai.com/borrow/listtype_ws">发布此借款</a>
+                <a href="#">发布此借款</a>
             </div>
         </div>
     </div>
