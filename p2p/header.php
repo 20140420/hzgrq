@@ -2,11 +2,11 @@
 
 </head>
 <body>
-    <div class="top PPD_header_nav">
+    <!--<div class="top PPD_header_nav">
         <div class="top_inner w1188center clearfix PPD_login_status">
             
         </div>
-    </div>
+    </div>-->
 
     <div class="mainNav">
         <div class="mainNav_inner w1000center clearfix">
