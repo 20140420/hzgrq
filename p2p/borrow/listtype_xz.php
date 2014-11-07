@@ -27,7 +27,7 @@
 <div>
     <ul class="breadcrumb" style="border: none !important;">
         <li><a href="/">首页</a> <span class="divider">&gt;</span></li>
-            <li><a href="/borrow">我要借款</a> <span class='divider'>></span></li>
+            <li><a href="/borrow">我要借款</a> <span class='divider'>&gt;</span></li>
                     <li><a href="/borrow/listtype_xz">杭城学子标</a></li>
     </ul>
 </div>
@@ -65,11 +65,11 @@
                               </tr>
                               <tr>
                                   <td class="nobdl">手续费</td>
-                                  <td colspan="3" class="nobdr"><a style="color: #999 !important" target="_blank" href="http://www.ppdai.com/help/fees">资费说明</a></td>
+                                  <td colspan="3" class="nobdr"><a style="color: #999 !important" target="_blank" href="../about/fees.php">资费说明</a></td>
                               </tr>
                               <tr>
                                   <td class="nobdl">续借说明</td>
-                                  <td colspan="3" class="nobdr">莘莘学子标需还清借款后再续借</td>
+                                  <td colspan="3" class="nobdr">杭城学子标需还清借款后再续借</td>
                               </tr>
                           </table>
                           <dl>
@@ -92,7 +92,7 @@
                           </dl>
                           <dl>
                               <dt>增值服务</dt>
-                              <dd>成功申请学生贷 — 首次申请莘莘学子标，并在之后的每期还款中无逾期，且还清所有本息后，拍拍贷将全额退还成交服务费。</dd>
+                              <dd>成功申请学生贷 — 首次申请杭城学子标，并在之后的每期还款中无逾期，且还清所有本息后，拍拍贷将全额退还成交服务费。</dd>
                               <dd>免费为学生建立金融征信档案。诚信从大学开始！为学生量身定做属于自己的“诚信报告”。</dd>
                           </dl>
                       </div>
