@@ -5,9 +5,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>工作原理_拍拍贷工作原理_拍拍贷</title>
-    <meta name="description" content="拍拍贷工作原理：拍拍贷用IT技术将民间借贷升级到互联网，为有资金需求和理财需求的个人搭建了一个安全、高效、诚信的网络借贷平台，并运用先进的风险控制理念使其创新发展。" />
-    <meta name="keywords" content="工作原理,拍拍贷工作原理" />
+    <title>工作原理_理财网工作原理_理财网</title>
+    <meta name="description" content="理财网工作原理：理财网用IT技术将民间借贷升级到互联网，为有资金需求和理财需求的个人搭建了一个安全、高效、诚信的网络借贷平台，并运用先进的风险控制理念使其创新发展。" />
+    <meta name="keywords" content="工作原理,理财网工作原理" />
     <link rel="stylesheet" type="text/css" href="http://www.ppdaicdn.com/2014/css/basic.css?091901" />
     <link rel="stylesheet" type="text/css" href="http://www.ppdaicdn.com/2014/css/layout.css?091901" />
     <link href="http://www.ppdaicdn.com/css/min/validation-min.css" rel="stylesheet" />
@@ -42,12 +42,12 @@
     <div class="staticPage">
 
         <h3 class="title">工作原理</h3>
-        <p class="shuom">拍拍贷用IT技术将民间借贷升级到互联网，为有资金需求和理财需求的个人搭建了一个安全、高效、诚信的网络借贷平台，并运用先进的风险控制理念使其创新发展。 用户可以在拍拍贷上获得信用评级、发布借款需求、快速筹得资金；也可以把自己的闲余资金通过拍拍贷出借给信用良好有资金需求的个人，在获得良好的资金回报率的同时帮助他人。</p>
+        <p class="shuom">理财网用IT技术将民间借贷升级到互联网，为有资金需求和理财需求的个人搭建了一个安全、高效、诚信的网络借贷平台，并运用先进的风险控制理念使其创新发展。 用户可以在理财网上获得信用评级、发布借款需求、快速筹得资金；也可以把自己的闲余资金通过理财网出借给信用良好有资金需求的个人，在获得良好的资金回报率的同时帮助他人。</p>
         <div class="wrapImg">
             <img src="../img/static4.jpg" alt="" />
         </div>
 
-        <h4 class="subTitle">拍拍贷借款流程</h4>
+        <h4 class="subTitle">理财网借款流程</h4>
         <div class="wrapImg">
             <img src="../img/static5.jpg" alt="" />
         </div>
