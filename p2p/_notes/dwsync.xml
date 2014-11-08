@@ -4,6 +4,8 @@
 <file name="favicon.ico" server="C:/wamp/www/hzgrq/" local="130597457879646751" remote="130597457870000000" Dst="0" />
 <file name="favicon.ico" server="C:/wamp/www/p2p/" local="130597457879646751" remote="130597457870000000" Dst="0" />
 <file name="index.html" server="C:/wamp/www/p2p/" local="130599049545915603" remote="130599049540000000" Dst="0" />
-<file name="footer.php" server="C:/wamp/www/p2p/" local="130598268902421075" remote="130598268900000000" Dst="0" />
-<file name="header.php" server="C:/wamp/www/p2p/" local="130599048873577147" remote="130599048870000000" Dst="0" />
+<file name="footer.php" server="C:/wamp/www/p2p/" local="130599074626730143" remote="130599074620000000" Dst="0" />
+<file name="header.php" server="C:/wamp/www/p2p/" local="130599177167615146" remote="130599177160000000" Dst="0" />
+<file name="login.html" server="C:/wamp/www/p2p/" local="130599087273973524" remote="130599087270000000" Dst="0" />
+<file name="register.html" server="C:/wamp/www/p2p/" local="130599092365314732" remote="130599092360000000" Dst="0" />
 </dwsync>

@@ -12,7 +12,7 @@
         <div class="mainNav_inner w1000center clearfix">
             <h1 class="logo">
                 <a href="/">
-                    <!--<img src="../img/logo.png" alt="" />修改图片--></a>
+                    <img src="../img/logo.png" alt="" /></a>
             </h1>
             <ul id="tabIcon">
                 <li class="hasSubMenu">
@@ -21,13 +21,13 @@
                         <a href="/lend">我要投资</a>
                         <a href="/product/list">产品专区</a>
                         <a href="/howtolend">如何投资</a>
-                        <a href="/help/principalprotection">本金保障</a>
+                        <a href="http://p2p.guruquan.com/lend/principalprotection.php">本金保障</a>
                     </div>
                 </li>
                 <li class="hasSubMenu">
-                    <a href="/borrow" category="Borrow">我要借款</a>
+                    <a href="http://p2p.guruquan.com/borrow/borrow.php" category="Borrow">我要借款</a>
                     <div class="subMenu">
-                        <a href="/borrow">我要借款</a>
+                        <a href="http://p2p.guruquan.com/borrow/borrow.php">我要借款</a>
                         <a href="/help/howtoborrow">如何借款</a>
                         <a href="/borrow/interestcalculate">利息计算器</a>
                     </div>
@@ -41,8 +41,8 @@
                 <li class="hasSubMenu"><a href="/help/aboutus"  category="About">关于理财网</a>
                     <div class="subMenu">
                         <a href="/help/aboutus">关于我们</a>
-                        <a href="/help/howworks">工作原理</a>
-                        <a href="/help/fees">资费说明</a>
+                        <a href="http://p2p.guruquan.com/about/howworks.php">工作原理</a>
+                        <a href="http://p2p.guruquan.com/about/fees.php">资费说明</a>
                         <a href="/job/campus">校园招聘</a>
                     </div>
                 </li>

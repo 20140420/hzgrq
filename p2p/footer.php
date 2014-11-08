@@ -12,7 +12,7 @@
                 <li><span class="webservice"></span><a href="/consult">客服中心</a>|</li>
                 <li class="nomr"><span class="onlneserve"></span><a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDAyNzUzNV8xODAzNjBfODAwMDI3NTM1XzJf" target="_blank">在线咨询</a></li>
             </ul>-->
-            <p>Copyright Reserved 2014-2015©校园P2P（<a href="http://p2p.guruquan.com">http://p2p.guruquan.com</a>）&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;浙ICP备09032599号</p>
+            <p>Copyright Reserved 2014-2015©理财网P2P（<a href="http://p2p.guruquan.com">http://p2p.guruquan.com</a>）&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;浙ICP备09032599号</p>
 
 
         </div>
