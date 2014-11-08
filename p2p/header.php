@@ -38,7 +38,7 @@
                         <a href="/account/lend">投资账户</a>
                     </div>
                 </li>
-                <li class="hasSubMenu"><a href="/help/aboutus"  category="About">关于校园P2P</a>
+                <li class="hasSubMenu"><a href="/help/aboutus"  category="About">关于理财网</a>
                     <div class="subMenu">
                         <a href="/help/aboutus">关于我们</a>
                         <a href="/help/howworks">工作原理</a>
