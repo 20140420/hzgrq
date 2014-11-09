@@ -24,13 +24,33 @@ a:hover{
 	margin: 38px 40px 0 0;
 	position: relative;
 	box-shadow: 3px 5px 3px rgba(175,175,175,.3);
-*border:1px solid #f0f2f3;	border: 1px solid #f0f2f3\0;
+	*border:1px solid #f0f2f3;	border: 1px solid #f0f2f3\0;
 	border-top: 0;
 	background-attachment: scroll;
 	background-color: transparent;
 	background-image: url(../images/bzw/x2.png);
 	background-repeat: repeat-x;
 	background-position: 0 0;
+}
+.lcw_notice{
+	float: right;
+	width: 350px;
+	overflow: hidden;
+	zoom: 1;
+	position: relative;
+	background-repeat: repeat-y;
+	border-top: 0;
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	color: #FF0000;
+	font-weight: bolder;
+	font-size: 12px;
+	margin: 230px 240px 0 0;
+}
+.lcw_notice p{
+	height: auto;
+	width: 350px;
 }
 .lcb_title h2{
 	width: 280px;
@@ -54,7 +74,7 @@ a:hover{
 	background-attachment: scroll;
 	background-color: transparent;
 	background-image: url(../images/bzw/check.png);
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: 0 0;
 }
 .line-wraper{
