@@ -1,0 +1,705 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资质审核</title>
+    <meta name="description" content="拍拍贷，中国首家，最大、最多人使用的互联网金融P2P(人人贷)网络借贷平台。提供小额贷款,短期贷款,个人贷款,抵押,无抵押贷款服务。利率自定,借期灵活。您还可以成为借出人理财借贷投资，获得高年收益率回报，超低门槛，超高收益。作为可信赖的投融资,理财,贷款,信贷平台,拍拍贷助您财富实现增值" />
+    <meta name="keywords" content="网络贷款,民间借贷,小额贷款,无抵押贷款,信用贷款,网络借贷,借贷平台,拍拍贷,人人贷,投资理财,个人理财,p2p贷款,贷款,互联网金融,投融资" />
+    <link href="http://www.ppdaicdn.com/css/min/bootstrap-min.css?v=2" rel="stylesheet" />
+    <link href="http://www.ppdaicdn.com/css/min/validation-min.css" rel="stylesheet" />
+    <link href="http://static.ppdai.com/skin/css/cssnext/imgareaselect-animated.css" rel="stylesheet">
+    <link href="http://www.ppdaicdn.com/css/min/default-min.css?v=0428" rel="stylesheet" />
+    <script src="http://www.ppdaicdn.com/js/jquery.js" type="text/javascript"></script>
+    <script src="http://www.ppdaicdn.com/js/jquery.cookie.js"></script>
+    <script src="http://www.ppdaicdn.com/js/min/ppd-min.js?v=2" type="text/javascript"></script>
+    <script src="http://www.ppdaicdn.com/js/min/servicestack-min.js"></script>
+    <script src="http://www.ppdaicdn.com/js/bootstrap.min.js"></script>
+    <script src="http://www.ppdaicdn.com/js/newRefer.js?v=0807"></script>
+    <link rel="shortcut icon" href="http://www.ppdaicdn.com/favicon.ico" type="image/x-icon" />
+</head>
+<body class="font_yahei">
+    <div id="_paymsg" class="Alt_Toptit" style="display: none;">
+    </div>
+    <div id="_audit" class="Alt_Toptit" style="display: none;">
+    </div>
+    <div class="PPD_header_nav" style="margin-bottom: 0;">
+        <div class="PPD_login_status">
+        </div>
+    </div>
+    <div class="PPD_tab_nav">
+        <div class="tab_nav_Bg">
+            <div class="width_1200">
+                <div class="center980">
+                    <h1>
+                        <a href="http://www.ppdai.com/">
+                            <img src="http://www.ppdaicdn.com/img/logo.png" class="float_l" />
+                        </a>
+                    </h1>
+                    <ul id="tabIcon" class="font_yahei">
+                        <li><a href="/" id="10000">首页</a></li>
+                        <li><a href="/lend" id="10001">我要借出</a></li>
+                        <li><a href="/borrow" id="10002">我要借入</a></li>
+                        <li><a href="/account" id="10003">我的账户</a></li>
+                        <li><a href="/help/aboutus" id="10004">关于拍拍贷</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script type="text/javascript" src="http://www.ppdaicdn.com/js/swfupload/swfupload.js"></script>
+    <script type="text/javascript" src="http://www.ppdaicdn.com/js/swfupload/swfupload.queue.js"></script>
+    <script type="text/javascript" src="http://www.ppdaicdn.com/js/swfupload/fileprogress.js"></script>
+    <script type="text/javascript" src="http://www.ppdaicdn.com/js/swfupload/handlers.js"></script>
+    <script type="text/javascript" src="http://www.ppdaicdn.com/js/swfupload/uploadSetting.js"></script>
+    <script type="text/javascript" src="http://www.ppdaicdn.com/js/jquery.engine.js"></script>
+    <script type="text/javascript" src="http://www.ppdaicdn.com/js/showExample.js"></script>
+    <script type="text/javascript" src="http://www.ppdaicdn.com/js/customize.js"></script>
+    <script src="http://www.ppdaicdn.com/js/validation.js"></script>
+    <script src="http://www.ppdaicdn.com/js/validation-zh.js"></script>
+    <script type="text/javascript" src="http://www.ppdaicdn.com/js/jquery.cookie.js"></script>
+    <div id="content_nav" class="row show-grid center980">
+        <div class="first_lend_left">
+            <h1>申请贷款</h1>
+
+                  <div class="useron">1.个人信息</div>
+            <div class="lendon">2.借款信息</div><!--lendon-->
+            <div class="certon">3.资质审核</div><!--certon-->
+            
+           
+           
+        </div>
+        <div class="span8" style="width: 770px;">
+            <div class="next_tab_content" style="width: 770px;" >
+                <div class="create_list_info" style="border: none;">
+                        <div class="info_tit" style="border: 1px solid #ededed">
+                            <div>
+                            </div>
+                            <span class="float_l">近期短信调整了短信发送规则，可能造成信息发送延迟，如您长时间未收到验证码短信，请尝试重新获取或至<a href="/consult" target="_blank">客服中心</a></span>
+                        </div>
+
+                    <iframe src="http://ac.ppdai.com/userbind/miniuserbind" style="border:0px;margin-top:5px;width:100%;"></iframe>
+                    
+                    
+                </div>
+              
+                <div class="create_list_info" style="margin-top: 43px;">
+                    <div class="info_tit">
+                        <div>
+                        </div>
+                        <span class="float_l">填写联系人（请确保联系人填写准确，为了联系不到您，作为紧急联系人。无需负担保责任。)</span></div>
+                    <div class="my_contactway" style="height: 250px">
+                        <div class="float_l">
+                            <form id="my_contactway">
+                                <table >
+                                    <tr><td align="right">直系联系人姓名：</td><td><input name="secondRealName" class="float_l" type="text" id="secondRealName" data-validation-engine="validate[required,custom[realname]],maxSize[30],minSize[2]"/><em class="em">*</em></td><td align="right" width="80">关系：</td><td><select id="secondRelationships" name="secondRelationships"><option value="">--请选择--</option>
+<option value="1">配偶</option>
+<option value="3">父母</option>
+<option value="4">兄弟姐妹</option>
+<option value="7">其他亲戚</option>
+<option value="5">朋友</option>
+<option value="6">同事</option>
+</select><em class="em">*</em></td></tr>
+                                    <tr><td align="right">直系联系人手机：</td><td colspan="3"><input type="text"  maxlength="13" class="float_l" name="secondPhone" id="secondPhone" data-validation-engine="validate[required,custom[phone]]"/><em class="em">*</em></td></tr>
+                                    <tr><td align="right">其他联系人姓名：</td><td><input type="text" name="thirdRealName" class="float_l" id="thirdRealName" data-validation-engine="validate[required,custom[realname]],maxSize[30],minSize[2]"/><em class="em">*</em></td><td align="right">关系：</td><td><select id="thirdRelationships" name="thirdRelationships"><option value="">--请选择--</option>
+<option value="1">配偶</option>
+<option value="3">父母</option>
+<option value="4">兄弟姐妹</option>
+<option value="7">其他亲戚</option>
+<option value="5">朋友</option>
+<option value="6">同事</option>
+</select><em class="em">*</em></td></tr>
+                                    <tr><td align="right">其他联系人手机：</td><td colspan="3"><input type="text"  maxlength="13"  class="float_l" name="thirdPhone" dta='phone' id="thirdPhone" data-validation-engine="validate[required,custom[phone]]"/><em class="em">*</em></td></tr>
+                                    <tr><td></td><td colspan="3"><a href="javascript:void(0)" id="a_contact" class="btn btn-info font_yahei bangding_btn" style="width: 80px;margin: 0;">保存</a></td></tr>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="create_list_info" style="border: none;">
+                        <div class="info_tit" style="border: 1px solid #ededed">
+                            <div>
+                            </div>
+                            <span class="float_l">上传资料</span></div>
+                        <div class="upload_nav" style="border-bottom:none;margin-top: 5px;">
+                            <div>
+                                    <input type="hidden" id="authid" value="4274519"/>
+                                    <table class="upload_nav_table" cellpadding="0" cellspacing="0" style="margin:0;">
+                                        <tbody><tr>
+                                                   <th>资料类型</th>
+                                                   <th>图片</th>
+                                                   <th>最近上传时间</th>
+                                                   <th>未通过理由</th>
+                                                   <th>状态</th>
+                                               </tr>
+                                            <tr>
+                                                
+                                                <td width="235">身份证：本人身份证的正、反两面照片，本人手持身份证合照共计三张照片<i onmouseover="OpenExample(this);" frontdocumentid="1" onmouseout="hideExample(this);" description="资料要求:1、上传本人二代身份证正反面照片及本人与身份证合照，图片文字需清晰可见。图片尺寸需要小于10M。身份证上的所有信息清晰可见，必须能看清证件号。照片需免冠，建议未化妆，手持证件人的五官清晰可见。照片内容真实有效，不得做任何修改。2、资料请由照相机或高清手机拍摄，并将照片原图上传。请勿将照片剪切或修改，请勿上传复印件或扫描件。"></i><div><img src="http://www.ppdaicdn.com/img/firstdocuments.png" /><div style="color: red;">请勿将图片ps合并，请一张张单独上传。</div></div></td>
+                                                <td width="50"><a href="/viewfile/1">(0)张</a></td>
+                                                <td width="110"></td>
+                                                <td width="215"></td>
+                                                <td style="border-right: none;"> <a class='linkbutton' frontdocumentid=1 description='资料要求:1、上传本人二代身份证正反面照片及本人与身份证合照，图片文字需清晰可见。图片尺寸需要小于10M。身份证上的所有信息清晰可见，必须能看清证件号。照片需免冠，建议未化妆，手持证件人的五官清晰可见。照片内容真实有效，不得做任何修改。2、资料请由照相机或高清手机拍摄，并将照片原图上传。请勿将照片剪切或修改，请勿上传复印件或扫描件。'filetype='*.jpg;*.jpeg;*.gif;*.png;*.giff' comment='' href='javascript:void(0);'>上传资料</a><input type='button' class='picon' id='a_download' /></td>
+                                            </tr>
+
+                                    </table>
+
+                       
+                            </div>
+                        </div>
+                    </div>
+                <div id="divSubmit">
+                            <input type="button" id="btnsubmit" class="btn btn-primary first_lend_nextbtn " value="提交贷款申请"/>
+                            <div class="create_list_info_firstlend">您只需以上资质审核即可 <strong style="color: #333333">提交贷款申请</strong>，获得贷款。<br/>
+                                此为建立良好的信用档案，还完此笔贷款可申请更高额度。</div>
+
+                  
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <style>
+        .modal-body {
+            padding: 8px 0 0 27px;
+            max-width: 652px;
+        }
+
+        .modal-header {
+            padding: 12px 15px 12px 22px;
+            height: 24px;
+        }
+
+            .modal-header h3 {
+                color: #666666;
+                font-size: 20px;
+            }
+    </style>
+        <div id="div_download" style="display: none;">
+            <form id="form_download">
+                <h4 class="downtitle">
+                    <span class="anytiemtrans">手机也能传资料</span>
+                </h4>
+                <div class="clearfix" style="padding-top:20px;">
+                    <div class="twodimensional float_l" >
+                        <span class="dimensionalcode c39a1ea">立即扫描：</span>
+                        <div class="dimensionalimg">
+                            <img src="http://www.ppdaicdn.com/img/upload/tookapass.png" alt="" width="150" height="150" />
+                        </div>
+                    </div>
+                    <div class="pl27 float_l">
+                        <span class="downTwo c39a1ea">其他下载方式：</span>
+                        <div class="mlt17">
+                            <span class="downmoblie fl"></span>
+                            <div class="fl" style="position:relative;">
+                                <span id="mobileNumberSpn" class="mobileNumber">手机号</span>
+                                <input type="text"class="phonenumber" id="PhoneNumber" data-validation-engine="validate[required,custom[phone]]"/>
+                                <input type="button" class="  sendmobile blue-btn" value="下载到手机"/>
+                            </div>                           
+                        </div> 
+                        <div class="mlt15">
+                            <span class="downmocomputer fl"></span>
+                            <input class=" clickdown blue-btn" type="button" value="下载到电脑"/>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="friendlind">
+                    友情提示:<br/>
+                    1.打开任意可扫描软件（如微信、支付宝、手机浏览器等），启动摄像头扫描二维码即可。<br/>
+                    2.若您的手机像素小于300万，建议换用数码相机拍摄并上传。<br/>
+                    3.建议您在wifi环境下操作。
+                </div>
+            </form>
+        </div>
+    <iframe src="/cookie" style="height: 1px; width: 1px; position: absolute; left: 0pt; top: 0pt; margin-left: -100px;"></iframe>
+         <div id="example" onmouseover="OpenExample();" onmouseout='$(this).hide();' class="delog"
+        style="display: none; position: absolute">
+        <div class="delogtit bold">
+            参考样图（此为样图，所以有遮蔽，您上传的图片不能有遮蔽和PS处理。）</div>
+        <div class="delogimgnav ">
+            <div class="delogimg">
+                <img style="width: 500px;" id="exampleImg" />
+            </div>
+            <div class="iconnav">
+                <span id="example_left" style="cursor: pointer;" onclick="javascript:eb.left();">&lt;&lt;上一张</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span id="example_right" style="cursor: pointer;" onclick="javascript:eb.right();">下一张&gt;&gt;</span></div>
+            <div class="dian">
+            </div>
+            <div class="bottomlistnav">
+                <div id="example_description">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://www.ppdaicdn.com/js/jquery.remaintime.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var ss;
+        $(document).ready(function () {
+            $("#mobileNumberSpn").live("click", function () {
+                $(this).hide();
+                $("#PhoneNumber").focus();
+            });
+
+            $("#PhoneNumber").live("keyup", function () {
+                if ($.trim($(this).val()) == "") {
+                    $("#mobileNumberSpn").show();
+                } else {
+                    $("#mobileNumberSpn").hide();
+                }
+            });
+            $("#PhoneNumber").live("blur", function () {
+                if ($.trim($(this).val()) == "") {
+                    $("#mobileNumberSpn").show();
+                } else {
+                    $("#mobileNumberSpn").hide();
+                }
+            });
+            $("#10003").addClass("tabon");
+            $("select").each(function () {
+                $(this).attr('data-validation-engine', 'validate[required]');
+            });
+            $("#my_contactway").validationEngine();
+            $("#contactSecondGroup").validationEngine();
+            $("#opco").toggle(
+              function () {
+                  ss = $("#content_nav").height();
+                  $("#content_nav").css('height', 'auto');
+                  $("#contact").animate({ height: "330px" }, 500);
+                  $(this).text('点击收起');
+              },
+              function () {
+                  $("#contact").animate({ height: "0px" }, 500);
+                  $(this).text('点击展开');
+                  $("#content_nav").css('height', ss + 'px');
+              }
+            );
+        });
+        $("#documentTable").find("tr:even").css("background-color", "rgb(250,250,250)");
+        var swfu;//上传
+        var uc;//备注
+        var eb;//示例图
+
+        $(".linkbutton").newWindow({
+            windowTitle: "上传文件",
+            content: ResetUploadDiv(),
+            width: 430,
+            draggable: false,
+            autoscrool: true,
+            backgroundable: true,
+            onBtnClosed: closeUploadBox
+        });
+
+        function ResetUploadDiv() {
+            var html = new Array();
+            html.push('<div>');
+            html.push('<div class="fieldset flash" style="height:200px; overflow:auto" id="fsUploadProgress"></div>');
+            html.push('<div id="divStatus"></div>');
+            html.push('<div style="padding-left:10px;">');
+            html.push('<span id="spanButtonPlaceHolder" style="display:block;height:200px;overflow:auto"></span>');
+            html.push('<input id="btnCancel" class="btn" type="button" style="display:none; margin-left:10px;" value="取消上传" onclick="swfu.cancelQueue();"');
+            html.push('style="margin-left: 2px; font-size: 8pt; height: 29px;" />');
+            html.push('<label style="font-size:12px;display:inline"> (按ctrl或shift键可一次上传多图)</label>');
+            html.push('</div>');
+            html.push('<div class="uploaddescription" style="padding:10px;"><span id="uploadDescription" ></span></div>');
+            html.push('</div>');
+            return html.join("");
+        }
+
+        $(".linkbutton").click(function () {
+            var frontDocumentId = $(this).attr("frontDocumentId");
+            var fileType = $(this).attr("fileType");
+            var comment = $(this).attr("comment");
+            var description = $(this).attr("description");
+            uc = new UserComment("userComment", "updateComment", "saveComment", "cannelComment", comment, frontDocumentId, description);
+
+            var setting = new UploadSetting({
+                ProgressId: "fsUploadProgress",
+                UploadId: "btnUpload",
+                CancelId: "btnCancel",
+                PlaceId: "spanButtonPlaceHolder",
+                Url: "http://" + window.location.host + "/upload",
+                Size: 10,
+                FileCount: 20,
+                Types: fileType,//"*.jpg;*.jpeg;*.gif;*.png;*.giff;*.txt;*.csv",
+                TypeDesc: "",
+                //CompletedEvent: function () { setTimeout("document.location.reload();", 3000); },
+                Param: { "FrontDocumentId": frontDocumentId, "UpLoadFileType": 1, "UserId": $("#authid").val() }
+            });
+
+            swfu = new SWFUpload(setting);
+
+        });
+
+        var ajaxpram = {
+            BoxpopFun: function (functionname, remark) {
+                this.functionname = functionname;
+                this.remark = remark;
+                $.post("/actionlog", { useraction: 'pailechuan', functionname: functionname, remark: remark });
+                var html = $("#div_download").html();
+                $("#a_download").PPDfloatDiv({
+                    floatwidth: 622,
+                    floatheight: 460,
+                    btnshow: false,
+                    floatbgtype: true,
+                    handertext: '拍了传<span style="font-size:16px;" >（安卓版）</span>',
+                    context: html
+                });
+                $("#div_download").html('');
+                $('#modalbackdroptrue').on('hide', function () {
+                    $('#div_download').append(html);
+                });
+            }
+        };
+
+
+        // 拍了传Android应用下载框提示
+        $("#a_download").click(function () {
+            ajaxpram.BoxpopFun("拍了传窗口弹出框", "资质审核页，直接点击手机icon弹出");
+        });
+
+        var downApp = {
+            cookieKey: function () {
+                var user = 'qq595121869';
+                var key = 'info_userdocuments_dlapp_alertcount_' + user;
+                return key;
+            },
+            cookieOptions: { expires: 1, path: '/', domain: 'www.ppdai.com', secure: false },
+            set: function (num, expires) {
+                var that = this;
+                that.cookieOptions.expires = expires;
+                $.cookie(that.cookieKey(), num, that.cookieOptions);
+                that.cookieOptions.expires = 1;
+            },
+            get: function () {
+                var that = this;
+                return $.cookie(that.cookieKey());
+            },
+            alertCount: function () {
+                var that = this;
+                var num = that.get();
+                if (num == null) {
+                    num = '0';
+                }
+                return num;
+            },
+            init: function () {
+                var that = this;
+                var num = that.alertCount();
+                switch (num) {
+                    case '-1':
+                    case '2':
+                        //today have alert
+                        break;
+                    case '3':
+                        ajaxpram.BoxpopFun("拍了传窗口弹出框", "资质审核页，关闭上传控件后弹出");
+                        downApp.set('2', 1);
+                        $("#form_download").validationEngine();
+                        break;
+                }
+            },
+            setNerverClick: function () {
+                var that = this;
+                that.set('-1', 3650);
+            }
+        };
+        if (downApp.alertCount() == '0') {
+            downApp.set('0', 1);
+        } else {
+            downApp.init();
+        }
+
+
+        $('.sendmobile').live("click", function () {
+            var gateway = new servicestack.ClientGateway('http://' + window.location.host);
+            $("#form_download").validationEngine();
+            if ($("#form_download").validationEngine('validate')) {
+                $.post("/actionlog", { useraction: 'pailechuan', functionname: "拍了传下载", remark: "发送到手机下载" });
+                downApp.setNerverClick();
+                var data = { PhoneNumber: $('#PhoneNumber').val() };
+                gateway.postToService(
+                    {
+                        DocumentRequest: data
+                    }, function (e) {
+                        alert("短信已发送!");
+                    }, function (e) {
+                        alert(e.message);
+                    }
+                );
+            }
+        });
+        $('.clickdown').live("click", function () {
+            $.post("/actionlog", { useraction: 'pailechuan', functionname: "拍了传下载", remark: "下载到电脑安装" });
+            downApp.setNerverClick();
+            window.open('http://static.ppdai.com/skin/PPD_Phone.apk?v=1');
+        });
+
+
+
+        function closeUploadBox() {
+            if (downApp.alertCount() == '0' || downApp.alertCount() == '1' || downApp.alertCount() == '4') {
+                downApp.set('3', 1);
+            }
+
+            document.location.reload();
+
+        }
+        var UserComment = function (elementId, updateId, saveId, cannelId, comment, frontDocumentId, description) {
+            this.ElementId = elementId;
+            this.UpdateId = updateId;
+            this.SaveId = saveId;
+            this.CannelId = cannelId;
+            this.FrontDocumentId = frontDocumentId;
+            this.EditId = "EditUserComment";
+            this.DescriptionId = "uploadDescription";
+            this.DefaultComment = "无";
+            this.userCommentValue = comment;
+            this.Description = description;
+            this.init();
+        };
+        UserComment.prototype = {
+            _getId: function (id) {
+                return document.getElementById(id);
+            },
+            init: function () {
+                //var userComment = this.userCommentValue == "" ? this._getId(this.ElementId).innerHTML : this.userCommentValue;
+                //this._getId(this.ElementId).innerHTML = userComment == "" ? this.DefaultComment : userComment;
+                this._getId(this.DescriptionId).innerHTML = this.Description;
+            },
+            getUserComment: function () {
+                this.userCommentValue = this._getId(this.ElementId).innerHTML;
+                this.userCommentValue = this.userCommentValue == this.DefaultComment ? "" : this.userCommentValue;
+                return this.userCommentValue;
+            },
+            UpdateUserComment: function () {
+                var comment = this.getUserComment();
+                var html = '<input id="' + this.EditId + '" type="text" style="width:280px;" value="' + comment + '" />';
+                this._getId(this.ElementId).innerHTML = html;
+                this.ControlButton(true);
+            },
+            SaveUserComment: function () {
+                this.userCommentValue = this._getId(this.EditId).value;
+                this._getIduserCommentValue = this.userCommentValue == this.DefaultComment ? "" : this.userCommentValue;
+                this.CannelUserComment();
+                $.ajax({
+                    url: "FileView.aspx?Type=UpdateUserComment&FrontDocumentId=" + this.FrontDocumentId + "&UserComment=" + escape(this.userCommentValue)
+                });
+            },
+            CannelUserComment: function () {
+                this.userCommentValue = this.userCommentValue == "" ? this.DefaultComment : this.userCommentValue;
+                this._getId(this.ElementId).innerHTML = this.userCommentValue;
+                this.ControlButton(false);
+            },
+            ControlButton: function (isEdit) {
+                this._getId(this.UpdateId).style.display = isEdit ? "none" : "";
+                this._getId(this.SaveId).style.display = isEdit ? "" : "none";
+                this._getId(this.CannelId).style.display = isEdit ? "" : "none";
+            }
+        };
+
+        function downshow() {
+            $("#downnav").show();
+        }
+        function closenav() {
+            $("#downnav").hide();
+        }
+        var gateway = new servicestack.ClientGateway('http://' + window.location.host);
+        $("#a_contact").click(function () {
+            if ($("#my_contactway").validationEngine('validate')) {
+                $("#a_contact").attr("disabled", true);
+                $("#a_contact").text("正在提交...");
+                var data = {
+                    UserContactSecond: { RealName: $("#secondRealName").val(), RelationshipId: $("#secondRelationships").val(), Phone: $("#secondPhone").val() },
+                    UserContactThird: { RealName: $("#thirdRealName").val(), RelationshipId: $("#thirdRelationships").val(), Phone: $("#thirdPhone").val() }
+                };
+                gateway.postToService(
+                   {
+                       UserContactRequest: data
+                   }, function (e) {
+                       alert(e.ResponseStatus.Message);
+                       $("#a_contact").attr("disabled", false);
+                       $("#a_contact").text("保存");
+                       if ($("#IsShowSecondGroup").length > 0) {
+                           ss = $("#content_nav").height();
+                           $("#content_nav").css('height', 'auto');
+                           $("#contact").animate({ height: "330px" }, 500);
+                           $("#opco").text('点击收起');
+                       }
+                   }, function (e) {
+                       alert(e.message);
+                       $("#a_contact").attr("disabled", false);
+                       $("#a_contact").text("保存");
+                   }
+               );
+            }
+        });
+        $("#btnsubmit").click(function () {
+            if ($("#contactSecondGroup").validationEngine('validate')) {
+                $(this).attr("disabled", true);
+                $(this).val("正在提交...");
+                gateway.postToService(
+                    {
+                        FirstDocumentsRequest: {}
+                    }, function (e) {
+                        $(this).PPDfloatDiv({
+                            floatbgtype: true,
+                            handertext: '提交贷款申请成功',
+                            truebtnid: 'btnGo',
+                            context: "<div style='width:400px;'><div style='margin:20px 0 20px 0;'>" + e.ResponseStatus.Message + "</div><div style='width:300px;margin:0 auto;'><a href='/info/userdocuments' class='btn btn-primary' style='margin-left:120px;width:80px'>立即上传</a></div></div>",
+                            btnshow: false,
+                            share: false
+                        });
+                        $("#btnsubmit").attr("disabled", false);
+                        $('#modalbackdroptrue').on('hide', function () {
+                            $('#divSubmit').html("<div class=\"create_list_info_success\">已提交贷款申请</div>");
+                        });
+                    }, function (e) {
+
+                        $(this).PPDfloatDiv({
+                            floatbgtype: true,
+                            btnshow: false,
+                            handertext: '提交贷款申请失败',
+                            context: "<div>" + e.message + "<br/></div>"
+                        });
+                        $("#btnsubmit").attr("disabled", false);
+                        $("#btnsubmit").text("提交贷款申请");
+                        $("#btnGo").click(function () {
+                            $('#modalbackdroptrue').modal('hide');
+                        });
+                        $('#modalbackdroptrue').on('hide', function () {
+                            $("#btnsubmit").val("提交贷款申请");
+                        });
+                    }
+                );
+            } else {
+                ss = $("#content_nav").height();
+                $("#content_nav").css('height', 'auto');
+                $("#contact").animate({ height: "330px" }, 500);
+                $("#opco").text('点击收起');
+            }
+        })
+        ;
+        //$("#btnSubmitContactSecondGroup").click(function() {
+        //    if ($("#contactSecondGroup").validationEngine('validate')) {
+        //        $("#btnSubmitContactSecondGroup").attr("disabled", true);
+        //        $("#btnSubmitContactSecondGroup").text("正在提交...");
+        //        var data = {
+        //            UserContactFourth: { RealName: $("#contactRealName2").val(), RelationshipId: $("#contactRelationships2").val(), Phone: $("#contactPhone2").val() },
+        //            UserContactFifth: { RealName: $("#contactRealName3").val(), RelationshipId: $("#contactRelationships3").val(), Phone: $("#contactPhone3").val() },
+        //            UserContactSixth: { RealName: $("#contactRealName4").val(), RelationshipId: $("#contactRelationships4").val(), Phone: $("#contactPhone4").val() },
+        //            IsSecondGroup: true
+        //        };
+        //        gateway.postToService(
+        //            {
+        //                UserContactRequest: data
+        //            }, function(e) {
+        //                alert(e.ResponseStatus.Message);
+        //                location.reload();
+        //                $("#btnSubmitContactSecondGroup").attr("disabled", false);
+        //                $("#btnSubmitContactSecondGroup").text("确定");
+        //            }, function(e) {
+        //                alert(e.message);
+        //                $("#btnSubmitContactSecondGroup").attr("disabled", false);
+        //                $("#btnSubmitContactSecondGroup").text("确定");
+        //            }
+        //        );
+        //    }
+        //});
+        $("#btnValidateCode").click(function () {
+
+            $('#btnValidateCode').attr("disabled", true);
+            var data = { BindType: "Add", ValidateType: "Mobile", Step: "Third", Mobile: $("#MobilePhone").val(), Source: 1 };
+            gateway.putToService(
+                {
+                    MobileRequestNew: data
+                }, function (e) {
+                    alert(e.ResponseStatus.Message);
+                    remainTime('#btnValidateCode');
+                }, function (e) {
+                    alert(e.message);
+                    $('#btnValidateCode').attr("disabled", false);
+                }
+            );
+        });
+
+        $("#btnSubmitValidateCode").click(function () {
+
+            $('#btnSubmitValidateCode').attr("disabled", true);
+            var data = { BindType: "Add", ValidateType: "Mobile", Step: "Fourth", Mobile: $("#MobilePhone").val(), ValidateCode: $("#txtValidateCode").val() };
+            gateway.postToService(
+                {
+                    MobileRequestNew: data
+                }, function (e) {
+                    alert(e.ResponseStatus.Message);
+                    $('#btnSubmitValidateCode').attr("disabled", false);
+                    location.reload();
+                }, function (e) {
+                    if (e.errorCode == "511") {
+                        if (e.message.indexOf("成功") > 0) {
+                            location.reload();
+                        }
+
+                        alert(e.message);
+                    } else {
+                        alert(e.message);
+                    }
+                    $('#btnSubmitValidateCode').attr("disabled", false);
+                }
+            );
+        });
+    </script>
+
+
+
+
+    <div class="clear">
+    </div>
+
+    <div class="row-fluid show-grid bottom_nav" style="">
+        <div class="center980">
+            <ul>
+                <li><span class="web_index"></span><a href='/'>网站首页</a></li>
+                <li>|</li>
+                <li><span class="web_aboutus"></span><a href='/help/aboutus.cshtml'>关于我们</a></li>
+                <li>|</li>
+                <li><span class="web_map"></span><a href="/home/sitemap.htm">网站地图</a></li>
+                <li>|</li>
+                <li><span class="web_service"></span><a href='/consult'>客服中心</a></li>
+                <li>|</li>
+                <li>
+                    <span class="web_onConsultation"></span>
+                    <a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDAyNzUzNV8xODAzNjBfODAwMDI3NTM1XzJf" target="_blank">在线咨询</a>
+                </li>
+            </ul>
+            <p>
+                上海拍拍贷金融信息服务有限公司 版权所有 2007-2014
+            </p>
+            <p>
+                Copyright Reserved 2007-2014©拍拍贷（www.ppdai.com） | 沪ICP备05063398号
+            </p>
+
+        </div>
+    </div>
+
+    
+    <script src="http://ac.ppdai.com/status" type="text/javascript"></script>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PVQ5D8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-PVQ5D8');</script>
+    <!-- End Google Tag Manager -->
+    <script>
+            $("#BDBridgeFixedWrap").css("z-index", 1);
+    </script>
+</body>
+</html>
