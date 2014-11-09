@@ -12,7 +12,7 @@
         <div class="mainNav_inner w1000center clearfix">
             <h1 class="logo">
                 <a href="/">
-                    <img src="../img/logo.png" alt="" /></a>
+                    <img src="http://p2p.guruquan.com/img/logo.png" alt="" /></a>
             </h1>
             <ul id="tabIcon">
                 <li class="hasSubMenu">
@@ -32,10 +32,10 @@
                         <a href="http://p2p.guruquan.com/borrow/interestcalculate.php">利息计算器</a>
                     </div>
                 </li>
-                <li class="hasSubMenu"><a href="/account" category="Account">我的账户</a>
+                <li class="hasSubMenu"><a href="#" category="Account">我的账户</a>
                     <div class="subMenu">
-                        <a href="/account/borrow">借款账户</a>
-                        <a href="/account/lend">投资账户</a>
+                        <a href="http://p2p.guruquan.com/account/borrowaccount.php">借款账户</a>
+                        <a href="http://p2p.guruquan.com/account/lendaccount.php">投资账户</a>
                     </div>
                 </li>
                 <li class="hasSubMenu"><a href="/help/aboutus"  category="About">关于理财网</a>
