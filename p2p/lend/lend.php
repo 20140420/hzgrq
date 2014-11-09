@@ -5,9 +5,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>审错就赔区_默认排序_我要借出_第1页__拍拍贷</title>
-    <meta name="description" content="审错就赔区,我要借出，拍拍贷-中国领先互联网金融P2P网贷平台 提供网络贷款，投资理财 小额贷款,短期贷款,个人贷款,无抵押贷款服务 拍拍贷理财借贷投资，获得高年收益率回报，超低门槛，超高收益" />
-    <meta name="keywords" content="审错就赔区,我要借出,拍拍贷" />
+    <title>审错就赔区_默认排序_我要借出_第1页__理财网</title>
+    <meta name="description" content="审错就赔区,我要借出，理财网-中国领先互联网金融P2P网贷平台 提供网络贷款，投资理财 小额贷款,短期贷款,个人贷款,无抵押贷款服务 理财网理财借贷投资，获得高年收益率回报，超低门槛，超高收益" />
+    <meta name="keywords" content="审错就赔区,我要借出,理财网" />
     <link rel="stylesheet" type="text/css" href="http://www.ppdaicdn.com/2014/css/basic.css?091901" />
     <link rel="stylesheet" type="text/css" href="http://www.ppdaicdn.com/2014/css/layout.css?091901" />
     <link href="http://www.ppdaicdn.com/css/min/validation-min.css" rel="stylesheet" />
@@ -20,56 +20,9 @@
 
     <link rel="stylesheet" type="text/css" href="http://www.ppdaicdn.com/2014/css/borrow.css" />
 
-</head>
-<body>
-    <div class="top PPD_header_nav">
-        <div class="top_inner w1188center clearfix PPD_login_status">
-            
-        </div>
-    </div>
-
-    <div class="mainNav">
-        <div class="mainNav_inner w1000center clearfix">
-            <h1 class="logo">
-                <a href="/">
-                    <img src="http://www.ppdaicdn.com/2014/img/logo.png" alt="" /></a>
-            </h1>
-            <ul id="tabIcon">
-                <li class="hasSubMenu">
-                    <a href="/lend" category="Lend">我要投资</a>
-                    <div class="subMenu">
-                        <a href="/lend">我要投资</a>
-                        <a href="/product/list">产品专区</a>
-                        <a href="/howtolend">如何投资</a>
-                        <a href="/help/principalprotection">本金保障</a>
-                    </div>
-                </li>
-                <li class="hasSubMenu">
-                    <a href="/borrow" category="Borrow">我要借款</a>
-                    <div class="subMenu">
-                        <a href="/borrow">我要借款</a>
-                        <a href="/help/howtoborrow">如何借款</a>
-                        <a href="/borrow/interestcalculate">利息计算器</a>
-                    </div>
-                </li>
-                <li class="hasSubMenu"><a href="/account" category="Account">我的账户</a>
-                    <div class="subMenu">
-                        <a href="/account/borrow">借款账户</a>
-                        <a href="/account/lend">投资账户</a>
-                    </div>
-                </li>
-                <li class="hasSubMenu"><a href="/help/aboutus"  category="About">关于拍拍贷</a>
-                    <div class="subMenu">
-                        <a href="/help/aboutus">关于我们</a>
-                        <a href="/help/howworks">工作原理</a>
-                        <a href="/help/fees">资费说明</a>
-                            <a href="/job/campus">校园招聘</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
+<?php 
+	include_once('../header.php');
+?>
 
 
 
@@ -129,7 +82,7 @@
             <div class="wrapTable">
                     <div class="manjp">
                         <h3>审错就赔</h3>
-                        <p>赔标，是经拍拍贷最新风控系统加专业审核人员双重甄选出的优质列表，拍拍贷对此类列表提供相应的赔付服务（详情请见公告）。赔标具有安全性高、年化收益稳定的特点。</p>
+                        <p>赔标，是经理财网最新风控系统加专业审核人员双重甄选出的优质列表，理财网对此类列表提供相应的赔付服务（详情请见公告）。赔标具有安全性高、年化收益稳定的特点。</p>
                     </div>
 
                 <table>
@@ -145,7 +98,7 @@
                         <th class="nobg"></th>
                     </tr>
                         <tr>
-                            <td><a href="http://help.ppdai.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
+                            <td><a href="http://help.guruquan.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
                             <td>
                                 <a class="title ell" href="/list/1246830" target="_blank">【实体经营】本人实体店资金周转</a>
                                 <p class="userInfo clearfix">
@@ -189,7 +142,7 @@
                                 </td>
                         </tr>
                         <tr>
-                            <td><a href="http://help.ppdai.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
+                            <td><a href="http://help.guruquan.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
                             <td>
                                 <a class="title ell" href="/list/1261816" target="_blank">【实体经营】wenbo1223...</a>
                                 <p class="userInfo clearfix">
@@ -233,7 +186,7 @@
                                 </td>
                         </tr>
                         <tr>
-                            <td><a href="http://help.ppdai.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
+                            <td><a href="http://help.guruquan.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
                             <td>
                                 <a class="title ell" href="/list/1261325" target="_blank">【实体经营】资金周转，良好信用。</a>
                                 <p class="userInfo clearfix">
@@ -277,7 +230,7 @@
                                 </td>
                         </tr>
                         <tr>
-                            <td><a href="http://help.ppdai.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
+                            <td><a href="http://help.guruquan.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
                             <td>
                                 <a class="title ell" href="/list/1259850" target="_blank">【实体经营】公司经营规模扩大急需资金</a>
                                 <p class="userInfo clearfix">
@@ -321,7 +274,7 @@
                                 </td>
                         </tr>
                         <tr>
-                            <td><a href="http://help.ppdai.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
+                            <td><a href="http://help.guruquan.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
                             <td>
                                 <a class="title ell" href="/list/1254472" target="_blank">【个人消费】手头缺钱，急需买车</a>
                                 <p class="userInfo clearfix">
@@ -365,7 +318,7 @@
                                 </td>
                         </tr>
                         <tr>
-                            <td><a href="http://help.ppdai.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
+                            <td><a href="http://help.guruquan.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
                             <td>
                                 <a class="title ell" href="/list/1260074" target="_blank">【网贷体验】体验一下网贷的魅力</a>
                                 <p class="userInfo clearfix">
@@ -409,7 +362,7 @@
                                 </td>
                         </tr>
                         <tr>
-                            <td><a href="http://help.ppdai.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
+                            <td><a href="http://help.guruquan.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
                             <td>
                                 <a class="title ell" href="/list/1253915" target="_blank">【实体经营】扩大实体店的规模</a>
                                 <p class="userInfo clearfix">
@@ -453,7 +406,7 @@
                                 </td>
                         </tr>
                         <tr>
-                            <td><a href="http://help.ppdai.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
+                            <td><a href="http://help.guruquan.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
                             <td>
                                 <a class="title ell" href="/list/1266041" target="_blank">【网贷体验】是为了网贷体验，有...</a>
                                 <p class="userInfo clearfix">
@@ -497,7 +450,7 @@
                                 </td>
                         </tr>
                         <tr>
-                            <td><a href="http://help.ppdai.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
+                            <td><a href="http://help.guruquan.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
                             <td>
                                 <a class="title ell" href="/list/1260995" target="_blank">【个人消费】个人消费和信用累计...</a>
                                 <p class="userInfo clearfix">
@@ -541,7 +494,7 @@
                                 </td>
                         </tr>
                         <tr>
-                            <td><a href="http://help.ppdai.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
+                            <td><a href="http://help.guruquan.com/helpdetail/331" target="_blank"><i class="creditRating AA" title='反映列表安全等级，等级越高逾期率越低'></i></a></td>
                             <td>
                                 <a class="title ell" href="/list/1265905" target="_blank">【累积信用】rong32178...</a>
                                 <p class="userInfo clearfix">
@@ -597,39 +550,9 @@
 </div>
 
 
-    <div class="clear">
-    </div>
-
-    <div class="footer">
-        <div class="footer_footerBottom">
-            <ul class="footer_footerBottomNav clearfix">
-                <li><span class="webindex"></span><a href="/">网站首页</a>|</li>
-                <li><span class="aboutus"></span><a href="/help/aboutus">关于我们</a>|</li>
-                <li><span class="mapsite"></span><a href="/home/sitemap">网站地图</a>|</li>
-                <li><span class="webservice"></span><a href="/consult">客服中心</a>|</li>
-                <li class="nomr"><span class="onlneserve"></span><a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDAyNzUzNV8xODAzNjBfODAwMDI3NTM1XzJf" target="_blank">在线咨询</a></li>
-            </ul>
-            <p>Copyright Reserved 2007-2014©拍拍贷（www.ppdai.com）&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;沪ICP备05063398号&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;上海拍拍贷金融信息服务有限公司</p>
-
-
-        </div>
-
-    </div>
-
-    <script src="http://www.ppdaicdn.com/js/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <script src="http://www.ppdaicdn.com/2014/js/init.js" type="text/javascript" charset="utf-8"></script>
-    <script src="http://www.ppdaicdn.com/js/min/servicestack-min.js"></script>
-    <script src="http://www.ppdaicdn.com/js/jquery.cookie.js"></script>
-    <script src="http://ac.ppdai.com/status?v=2014" type="text/javascript"></script>
-    <script src="http://www.ppdaicdn.com/js/newRefer.js?v=0807"></script>
-    <script>
-        $(".my-f-l-list li a.on").closest(".my-f-l-list").prev(".my-f-l-nav").addClass("my-f-l-nav-sd");
-        try {
-            $("#tabIcon a[category='" + breadcrumbCategory + "']").addClass("tabon");
-        } catch (e) {
-
-        }
-    </script>
+<?php  
+	include_once('../footer.php');
+?>
     
     <script type="text/javascript" src="http://www.ppdaicdn.com/2014/js/ppd_ajax.js"></script>
     <script src="http://www.ppdaicdn.com/2014/js/bootstrap.min.js"></script>
