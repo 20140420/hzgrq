@@ -12,7 +12,7 @@
         <div class="mainNav_inner w1000center clearfix">
             <h1 class="logo">
                 <a href="/">
-                    <img src="http://p2p.guruquan.com/img/logo.png" alt="" /></a>
+                    <img style="height:53px; width:278px;" src="http://p2p.guruquan.com/img/logo.png" alt="" /></a>
             </h1>
             <ul id="tabIcon">
                 <li class="hasSubMenu">
