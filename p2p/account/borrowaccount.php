@@ -6,8 +6,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的账户-中国首家，最大、最多人使用的互联网金融P2P网络借贷平台。提供小额贷款,短期贷款,个人贷款,自定利率,借期灵活。您还可以成为借出人理财投资,超低门槛，获得高年收益率回报</title>
-    <meta name="description" content="拍拍贷，中国首家，最大、最多人使用的互联网金融P2P(人人贷)网络借贷平台。提供小额贷款,短期贷款,个人贷款,抵押,无抵押贷款服务。利率自定,借期灵活。您还可以成为借出人理财借贷投资，获得高年收益率回报，超低门槛，超高收益。作为可信赖的投融资,理财,贷款,信贷平台,拍拍贷助您财富实现增值" />
-    <meta name="keywords" content="网络贷款,民间借贷,小额贷款,无抵押贷款,信用贷款,网络借贷,借贷平台,拍拍贷,人人贷,投资理财,个人理财,p2p贷款,贷款,互联网金融,投融资" />
+    <meta name="description" content="理财网，中国首家，最大、最多人使用的互联网金融P2P(人人贷)网络借贷平台。提供小额贷款,短期贷款,个人贷款,抵押,无抵押贷款服务。利率自定,借期灵活。您还可以成为借出人理财借贷投资，获得高年收益率回报，超低门槛，超高收益。作为可信赖的投融资,理财,贷款,信贷平台,理财网助您财富实现增值" />
+    <meta name="keywords" content="网络贷款,民间借贷,小额贷款,无抵押贷款,信用贷款,网络借贷,借贷平台,理财网,人人贷,投资理财,个人理财,p2p贷款,贷款,互联网金融,投融资" />
     <link rel="stylesheet" type="text/css" href="http://www.ppdaicdn.com/2014/css/basic.css?091901" />
     <link rel="stylesheet" type="text/css" href="http://www.ppdaicdn.com/2014/css/layout.css?091901" />
     <link href="http://www.ppdaicdn.com/css/min/validation-min.css" rel="stylesheet" />
@@ -52,7 +52,7 @@
     <ul class="my-f-l-list">
         <li><a href="/moneyhistory" >资金记录</a></li>
         <li><a href="http://pay.ppdai.com/order/online" >充值</a></li>
-        <li><a href="http://pay.ppdai.com/trade/cashwithdrawal" >提现</a></li>
+        <li><a href="http://pay.guruquan.com/trade/cashwithdrawal" >提现</a></li>
     </ul>
         <div class="my-f-l-nav">借款管理</div>
         <ul class="my-f-l-list">
@@ -64,8 +64,8 @@
 
     <div class="my-f-l-nav">账户设置</div>
     <ul class="my-f-l-list">
-        <li><a href="http://ac.ppdai.com/safe/setting" >安全中心</a></li>
-        <li><a href="http://ac.ppdai.com/user/accountbind" >关联账户</a></li>
+        <li><a href="http://ac.guruquan.com/safe/setting" >安全中心</a></li>
+        <li><a href="http://ac.guruquan.com/user/accountbind" >关联账户</a></li>
     </ul>
     <div class="my-f-l-nav">市场推广</div>
     <ul class="my-f-l-list">
@@ -75,10 +75,10 @@
 </div>
 
         <div class="ml20 my-f-right fl">
-            <div class="my-ac-haowai"><div class="extra"><span class="float_l">号外：</span><label>新版”拍“了传（安卓版）资料上传更方便啦，<a href="http://www.ppdai.com/info/userdocuments?haowai" class="c39a1ea">点击下载</a>吧</label>！</div></div>
+            <div class="my-ac-haowai"><div class="extra"><span class="float_l">号外：</span><label>新版”拍“了传（安卓版）资料上传更方便啦，<a href="http://www.guruquan.com/info/userdocuments?haowai" class="c39a1ea">点击下载</a>吧</label>！</div></div>
             <div class="my-ac-users c666666 clearfix">
                 <a href="/info/userface/">
-                    <img class="fl" src="http://static.ppdai.com/app_themes/images/head/nophoto_80.gif" alt="用户头像" width="150px" height="150px" style="margin-right:10px;" /></a>
+                    <img class="fl" src="http://static.guruquan.com/app_themes/images/head/nophoto_80.gif" alt="用户头像" width="150px" height="150px" style="margin-right:10px;" /></a>
                 <div class="w600 fl">
                     <div class="my-ac-userverfy clearfix">
                         <label class="my-ac-username fl">qq595121869</label>
@@ -87,7 +87,7 @@
                         <div class="my-ac-vfr fr">
                             <a class="my-ac-vfs my-ac-vidh fl" href="/cert/identitycert" title="身份认证"></a>
                             <div class="my-sc-vvideofr fl">
-                                <a class="my-ac-vfs  my-ac-vphone ml17 fl" title="手机绑定" href="http://ac.ppdai.com/userbind/bindmobile"></a>
+                                <a class="my-ac-vfs  my-ac-vphone ml17 fl" title="手机绑定" href="http://ac.guruquan.com/userbind/bindmobile"></a>
                             </div>
                             <a class="my-ac-vfs  my-ac-vvideo " title="视频认证" href="/cert/videousercert"></a>
 
@@ -110,7 +110,7 @@
                             <div class="lh50">
                                 <label>可用余额：</label><span class="my-ac-ps-yue">&#165;0.00</span>
                             </div>
-                            <div><a class="my-blue-btn my-ac-btns" href="http://www.ppdai.com/account/repaymentlist?account1">还款</a><a class="ml16 my-yellow-btn my-ac-btns" href="http://pay.ppdai.com/trade/cashwithdrawal">提现</a></div>
+                            <div><a class="my-blue-btn my-ac-btns" href="http://www.guruquan.com/account/repaymentlist?account1">还款</a><a class="ml16 my-yellow-btn my-ac-btns" href="http://pay.guruquan.com/trade/cashwithdrawal">提现</a></div>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                     <div class="lc-ts-frame">
                         <div class="lc-jt jt3"></div>
                         <div class="ts c666666">
-                                <p class="lh30">1、初审中，上传更多的资料，会更好的完成审核。<a class="c39a1ea" href='http://www.ppdai.com/info/userdocuments?account'>上传资料</a>及<a class="c39a1ea" href='http://www.ppdai.com/user/auth/mobile?account'>手机实名认证</a></p>
+                                <p class="lh30">1、初审中，上传更多的资料，会更好的完成审核。<a class="c39a1ea" href='http://www.guruquan.com/info/userdocuments?account'>上传资料</a>及<a class="c39a1ea" href='http://www.guruquan.com/user/auth/mobile?account'>手机实名认证</a></p>
                                 <p class="lh30"><span class="cc4c4c4">2、终审</span></p>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                 <a class="op1 fl" href="/info/userdetail">填写基本资料</a>
                 <a class="ml11 op2 fl" href="/info/userdocuments">上传资料</a>
                 <a class="ml11 op3 fl" href="/user/auth/mobile">手机实名认证</a>
-                <a class="ml11 op4 fl" href="http://ac.ppdai.com/user/accountbind">关联账户</a>
+                <a class="ml11 op4 fl" href="http://ac.guruquan.com/user/accountbind">关联账户</a>
             </div>
 
             
@@ -222,9 +222,9 @@
     <!--营销部分 开始-->
     <script type="text/javascript">
         $(document).ready(function () {
-            var referUrl = 'http://www.ppdai.com/account/lend';
+            var referUrl = 'http://www.guruquan.com/account/lend';
             if ('0' == '1' && referUrl.indexOf("firstuserdetail") > 0) {
-                var txt = "拍拍贷销售专员稍后会与您联系。在此期间，您可以继续在网站自助操作，完成淘宝认证及上传资料。";
+                var txt = "理财网销售专员稍后会与您联系。在此期间，您可以继续在网站自助操作，完成淘宝认证及上传资料。";
                 $('body').PPDfloatDiv({
                     floatbgtype: true,
                     handertext: '提示',
@@ -246,7 +246,7 @@
 
     <!--记录当前使用角色 开始-->
     <script type="text/javascript">
-        $.cookie("ppdaiRole", "8", { expires: 365, path: '/', domain: '.ppdai.com', secure: false });
+        $.cookie("ppdaiRole", "8", { expires: 365, path: '/', domain: '.guruquan.com', secure: false });
     </script>
     <!--记录当前使用角色 结束-->
 

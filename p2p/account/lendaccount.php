@@ -6,8 +6,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的账户-中国首家，最大、最多人使用的互联网金融P2P网络借贷平台。提供小额贷款,短期贷款,个人贷款,自定利率,借期灵活。您还可以成为借出人理财投资,超低门槛，获得高年收益率回报</title>
-    <meta name="description" content="拍拍贷，中国首家，最大、最多人使用的互联网金融P2P(人人贷)网络借贷平台。提供小额贷款,短期贷款,个人贷款,抵押,无抵押贷款服务。利率自定,借期灵活。您还可以成为借出人理财借贷投资，获得高年收益率回报，超低门槛，超高收益。作为可信赖的投融资,理财,贷款,信贷平台,拍拍贷助您财富实现增值" />
-    <meta name="keywords" content="网络贷款,民间借贷,小额贷款,无抵押贷款,信用贷款,网络借贷,借贷平台,拍拍贷,人人贷,投资理财,个人理财,p2p贷款,贷款,互联网金融,投融资" />
+    <meta name="description" content="理财网，中国首家，最大、最多人使用的互联网金融P2P(人人贷)网络借贷平台。提供小额贷款,短期贷款,个人贷款,抵押,无抵押贷款服务。利率自定,借期灵活。您还可以成为借出人理财借贷投资，获得高年收益率回报，超低门槛，超高收益。作为可信赖的投融资,理财,贷款,信贷平台,理财网助您财富实现增值" />
+    <meta name="keywords" content="网络贷款,民间借贷,小额贷款,无抵押贷款,信用贷款,网络借贷,借贷平台,理财网,人人贷,投资理财,个人理财,p2p贷款,贷款,互联网金融,投融资" />
     <link rel="stylesheet" type="text/css" href="http://www.ppdaicdn.com/2014/css/basic.css?091901" />
     <link rel="stylesheet" type="text/css" href="http://www.ppdaicdn.com/2014/css/layout.css?091901" />
     <link href="http://www.ppdaicdn.com/css/min/validation-min.css" rel="stylesheet" />
@@ -50,8 +50,8 @@
     <div class="my-f-l-nav">资金管理</div>
     <ul class="my-f-l-list">
         <li><a href="/moneyhistory" >资金记录</a></li>
-        <li><a href="http://pay.ppdai.com/order/online" >充值</a></li>
-        <li><a href="http://pay.ppdai.com/trade/cashwithdrawal" >提现</a></li>
+        <li><a href="http://pay.guruquan.com/order/online" >充值</a></li>
+        <li><a href="http://pay.guruquan.com/trade/cashwithdrawal" >提现</a></li>
     </ul>
         <div class="my-f-l-nav">投资管理</div>
         <ul class="my-f-l-list">
@@ -63,8 +63,8 @@
 
     <div class="my-f-l-nav">账户设置</div>
     <ul class="my-f-l-list">
-        <li><a href="http://ac.ppdai.com/safe/setting" >安全中心</a></li>
-        <li><a href="http://ac.ppdai.com/user/accountbind" >关联账户</a></li>
+        <li><a href="http://ac.guruquan.com/safe/setting" >安全中心</a></li>
+        <li><a href="http://ac.guruquan.com/user/accountbind" >关联账户</a></li>
     </ul>
     <div class="my-f-l-nav">市场推广</div>
     <ul class="my-f-l-list">
@@ -74,10 +74,10 @@
 </div>
 
         <div class="ml20 my-f-right fl">
-            <div class="my-ac-haowai"><div class="extra"><span class="float_l"></span><span style="color:#222222;font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;background-color:#FFFFFF;">号外：“投资有门道”分享你的投资经验，赢10000现金大奖，</span><a href="http://group.ppdai.com/forum.php?mod=forumdisplay&amp;fid=79&amp;tzymdhw" target="_blank"><span style="color:#0000FF;font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;background-color:#FFFFFF;">赶快参</span><span style="color:#0000ff;font-size:16px;font-family:宋体;background-color:#ffffff;"><wbr><span style="color:#0000FF;font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;background-color:#FFFFFF;">与</span></wbr></span></a><label><a href="http://www.ppdai.com/autobid/addrule?from_haowai_5_7" class="c39a1ea"></a></label></div></div>
+            <div class="my-ac-haowai"><div class="extra"><span class="float_l"></span><span style="color:#222222;font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;background-color:#FFFFFF;">号外：“投资有门道”分享你的投资经验，赢10000现金大奖，</span><a href="http://group.guruquan.com/forum.php?mod=forumdisplay&amp;fid=79&amp;tzymdhw" target="_blank"><span style="color:#0000FF;font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;background-color:#FFFFFF;">赶快参</span><span style="color:#0000ff;font-size:16px;font-family:宋体;background-color:#ffffff;"><wbr><span style="color:#0000FF;font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;background-color:#FFFFFF;">与</span></wbr></span></a><label><a href="http://www.guruquan.com/autobid/addrule?from_haowai_5_7" class="c39a1ea"></a></label></div></div>
             <div class="my-ac-users c666666 clearfix">
                 <a href="/info/userface/">
-                    <img class="fl" src="http://static.ppdai.com/app_themes/images/head/nophoto_80.gif" alt="用户头像" width="150px" height="150px" style="margin-right:10px;" /></a>
+                    <img class="fl" src="http://static.guruquan.com/app_themes/images/head/nophoto_80.gif" alt="用户头像" width="150px" height="150px" style="margin-right:10px;" /></a>
                 <div class="w600 fl">
                     <div class="my-ac-userverfy clearfix">
                         <label class="my-ac-username fl">qq595121869</label>
@@ -86,7 +86,7 @@
                         <div class="my-ac-vfr fr">
                             <a class="my-ac-vfs my-ac-vidh fl" href="/cert/identitycert" title="身份认证"></a>
                             <div class="my-sc-vvideofr fl">
-                                <a class="my-ac-vfs  my-ac-vphone  ml17 fl" title="手机绑定" href="http://ac.ppdai.com/userbind/bindmobile"></a>
+                                <a class="my-ac-vfs  my-ac-vphone  ml17 fl" title="手机绑定" href="http://ac.guruquan.com/userbind/bindmobile"></a>
                             </div>
                             <a class="my-ac-vfs  my-ac-vvideo" title="视频认证" href="/cert/videousercert"></a>
 
@@ -107,7 +107,7 @@
                             <div class="lh50">
                                 <label>可用余额：</label><span class="my-ac-ps-yue">&#165;0.00</span>
                             </div>
-                            <div><a class="my-blue-btn my-ac-btns" href="http://pay.ppdai.com/order/online">充值</a><a class="ml16 my-yellow-btn my-ac-btns" href="http://pay.ppdai.com/trade/cashwithdrawal">提现</a></div>
+                            <div><a class="my-blue-btn my-ac-btns" href="http://pay.guruquan.com/order/online">充值</a><a class="ml16 my-yellow-btn my-ac-btns" href="http://pay.guruquan.com/trade/cashwithdrawal">提现</a></div>
                         </div>
                     </div>
                 </div>
@@ -256,7 +256,7 @@
 
     <!--记录当前使用角色 开始-->
     <script type="text/javascript">
-        $.cookie("ppdaiRole", "4", { expires: 365, path: '/', domain: '.ppdai.com', secure: false });
+        $.cookie("ppdaiRole", "4", { expires: 365, path: '/', domain: '.guruquan.com', secure: false });
     </script>
     <!--记录当前使用角色 结束-->
 
