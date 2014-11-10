@@ -77,7 +77,7 @@
             <div class="my-ac-haowai"><div class="extra"><span class="float_l"></span><span style="color:#222222;font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;background-color:#FFFFFF;">号外：“投资有门道”分享你的投资经验，赢10000现金大奖，</span><a href="http://group.guruquan.com/forum.php?mod=forumdisplay&amp;fid=79&amp;tzymdhw" target="_blank"><span style="color:#0000FF;font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;background-color:#FFFFFF;">赶快参</span><span style="color:#0000ff;font-size:16px;font-family:宋体;background-color:#ffffff;"><wbr><span style="color:#0000FF;font-size:14px;font-family:微软雅黑, &#39;microsoft yahei&#39;;background-color:#FFFFFF;">与</span></wbr></span></a><label><a href="http://www.guruquan.com/autobid/addrule?from_haowai_5_7" class="c39a1ea"></a></label></div></div>
             <div class="my-ac-users c666666 clearfix">
                 <a href="/info/userface/">
-                    <img class="fl" src="http://static.guruquan.com/app_themes/images/head/nophoto_80.gif" alt="用户头像" width="150px" height="150px" style="margin-right:10px;" /></a>
+                    <img class="fl" src="../img/nophoto_80.gif" alt="用户头像" width="150px" height="150px" style="margin-right:10px;" /></a>
                 <div class="w600 fl">
                     <div class="my-ac-userverfy clearfix">
                         <label class="my-ac-username fl">qq595121869</label>

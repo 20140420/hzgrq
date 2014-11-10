@@ -78,7 +78,7 @@
             <div class="my-ac-haowai"><div class="extra"><span class="float_l">号外：</span><label>新版”拍“了传（安卓版）资料上传更方便啦，<a href="http://www.guruquan.com/info/userdocuments?haowai" class="c39a1ea">点击下载</a>吧</label>！</div></div>
             <div class="my-ac-users c666666 clearfix">
                 <a href="/info/userface/">
-                    <img class="fl" src="http://static.guruquan.com/app_themes/images/head/nophoto_80.gif" alt="用户头像" width="150px" height="150px" style="margin-right:10px;" /></a>
+                    <img class="fl" src="../img/nophoto_80.gif" alt="用户头像" width="150px" height="150px" style="margin-right:10px;" /></a>
                 <div class="w600 fl">
                     <div class="my-ac-userverfy clearfix">
                         <label class="my-ac-username fl">qq595121869</label>
