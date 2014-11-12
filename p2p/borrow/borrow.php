@@ -8,7 +8,7 @@
     <meta name="keywords" content="我要借入,申请发标" />
     <link rel="stylesheet" type="text/css" href="../css/basic.css?091901" />
     <link rel="stylesheet" type="text/css" href="../css/layout.css?091901" />
-    <link href="../css/validation-min.css" rel="stylesheet" />
+    <link href="../css/min/validation-min.css" rel="stylesheet" />
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
     <script type="text/javascript">
         var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");

@@ -1,4 +1,3 @@
-// JavaScript Document
 /*
  * Inline Form Validation Engine 2.6.2, jQuery plugin
  *
