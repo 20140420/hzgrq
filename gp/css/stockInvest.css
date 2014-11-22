@@ -19,10 +19,14 @@ body{
 .clear{clear: both; font-size:1px; width:1px; height:0; overflow:hidden;}
 .l{ float: left;}
 .r{ float: right;}
-a{color:#333;text-decoration:none;}
+a{
+	color: #000;
+	text-decoration: none;
+}
 a:hover,.ul01 li a:hover,.ul03 li a:hover,#mian-left h2 .r a:hover,.qu-r ul li a:hover,.answer .tul2 li a:hover,.footer_pd a:hover,.every_blog a:hover,.sm-text p a:hover,.yl a:hover,.qu-l a:hover,.table02 td a:hover{
 	color: #cc3300;
-	text-decoration: underline;
+	text-decoration: none;
+	font-weight: normal;
 }
 img{border:none;}
 
@@ -71,7 +75,6 @@ img{border:none;}
 .ul01 li a{margin:0 5px 0 0;color:#999;}
 .ul01 .bond{font:bold 12px 宋体;color:#f60;line-height:180%;}
 .ul01 .bond a{color:#f60;}
-.blu{color:#499fcb;margin:0 5px 0 0;}
 
 /*top-mian*/
 #top-mian{
@@ -353,3 +356,59 @@ a:hover .bt_01 {
 	margin-bottom: 30px;
 	margin-left: 10px;
 }
+
+/** 操作记录页面样式 **/
+.jy-mean {
+	width: 950px;
+	margin: 0;
+	background: url(../images/jybg.gif) left top repeat-y;
+}
+.jy-mean{
+	width: 950px;
+	margin: 0;
+	background: url(../images/jybg.gif) left top repeat-y;
+	height: 100%;
+}
+.jy-mean table{
+	display: table;
+	border-collapse: separate;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border: 1px solid #d6d5d5;
+	width: 914px;
+	border-spacing: 1px;
+	background-color: rgb(255, 255, 255);
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;/**/
+}
+.p06 {
+	font: normal 12px 宋体;
+	margin-top: 2px;
+}
+.blu {
+	color: #c90101;
+}
+.blu2 {
+	color: #0296c7;
+}
+.jy-mean table th{
+	height: 25px;
+	background: url(../images/tab_bg1.gif) left top repeat-x;
+}
+.jy-mean table td {
+	height: 24px;
+}
+.bgcolor2 {
+	background-color: #ece9e3;
+}
+.bgcolor1 {
+background-color: #f3eee8;
+}
+.jy_h{background: url(../images/bg.gif) left top no-repeat;}
+.jy_h,.jy_h2{width:950px;height:55px;background-position:left -912px;overflow:hidden;}
+.jy_h .l{height:20px;font:bold 14px 宋体;color:#c03901;padding:30px 0 0 90px;background:url(../images/jiaoy.gif) left 5px no-repeat;margin-left:30px;}
+.jy_h2 .l{height:20px;font:bold 14px 宋体;color:#c03901;padding:30px 0 0 70px;background:url(../images/ph.gif) left 5px no-repeat;margin-left:30px;}
+.jy_h2 .r{background:url(../images/search.gif) left top no-repeat;width:337px;height:27px;margin:22px 18px 0 0;font:normal 12px 宋体;color:#333;line-height:180%;padding-top:2px;padding-top:0\9;*padding-top:0;_padding-top:0;}
+.jy_h2 .r a{margin-left:10px;}
+.pm_put{border:1px solid #cdcdcd;padding:2px;font-size:12px;width:220px;margin:2px 0 0 65px;margin:3px 0 0 65px\9;*margin:2px 0 0 65px;color:#555;}
+.jy-bot{width:950px;height:16px;margin:0;}
