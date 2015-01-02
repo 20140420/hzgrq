@@ -415,3 +415,9 @@ background-color: #f3eee8;
 .jy_h2 .r a{margin-left:10px;}
 .pm_put{border:1px solid #cdcdcd;padding:2px;font-size:12px;width:220px;margin:2px 0 0 65px;margin:3px 0 0 65px\9;*margin:2px 0 0 65px;color:#555;}
 .jy-bot{width:950px;height:16px;margin:0;}
+.center{
+	overflow: hidden;
+	height: auto;
+	margin: 0px auto;
+	text-align: center;
+}
