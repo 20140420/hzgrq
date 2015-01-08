@@ -420,4 +420,7 @@ background-color: #f3eee8;
 	height: auto;
 	margin: 0px auto;
 	text-align: center;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
 }
